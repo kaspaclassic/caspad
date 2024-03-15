@@ -3,12 +3,12 @@ package ready
 import (
 	"sync/atomic"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/protocol/common"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
 
-	peerpkg "github.com/casklas/caspad/app/protocol/peer"
-	"github.com/casklas/caspad/app/protocol/protocolerrors"
-	routerpkg "github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
+	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
+	routerpkg "github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

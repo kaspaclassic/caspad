@@ -1,7 +1,7 @@
 package transactionvalidator
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // PopulateMass calculates and populates the mass of the given transaction

@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus"
 
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/util/difficulty"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/util/difficulty"
 )
 
 func TestGetHashrateString(t *testing.T) {

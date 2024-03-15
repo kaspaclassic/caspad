@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // MergeDepthRootStore represents a store for merge depth roots

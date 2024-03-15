@@ -1,7 +1,7 @@
 package hashes
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // ToStrings converts a slice of hashes into a slice of the corresponding strings

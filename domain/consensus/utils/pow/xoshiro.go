@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"math/bits"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 type xoShiRo256PlusPlus struct {

@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 	"os"
 	"sync/atomic"
 	"syscall"

@@ -1,8 +1,8 @@
 package prefixmanager
 
 import (
-	"github.com/casklas/caspad/domain/prefixmanager/prefix"
-	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/domain/prefixmanager/prefix"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
 )
 
 var activePrefixKey = database.MakeBucket(nil).Key([]byte("active-prefix"))

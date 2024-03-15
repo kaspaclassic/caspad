@@ -3,9 +3,9 @@ package mine
 import (
 	"path/filepath"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/infrastructure/db/database"
-	"github.com/casklas/caspad/infrastructure/db/database/ldb"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database/ldb"
 )
 
 const leveldbCacheSizeMiB = 256

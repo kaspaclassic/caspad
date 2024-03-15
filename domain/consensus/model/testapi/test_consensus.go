@@ -3,10 +3,10 @@ package testapi
 import (
 	"io"
 
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
 )
 
 // MineJSONBlockType indicates which type of blocks MineJSON mines

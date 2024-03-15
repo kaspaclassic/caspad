@@ -3,9 +3,9 @@ package server
 import (
 	"context"
 
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
 
-	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
 )
 
 func (s *server) Sign(_ context.Context, request *pb.SignRequest) (*pb.SignResponse, error) {

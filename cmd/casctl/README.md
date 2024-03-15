@@ -22,7 +22,7 @@ $ go version
 - Run the following commands to obtain and install caspad including all dependencies:
 
 ```bash
-$ git clone https://github.com/casklas/caspad
+$ git clone https://github.com/kaspaclassic/caspad
 $ cd caspad/cmd/casctl
 $ go install .
 ```

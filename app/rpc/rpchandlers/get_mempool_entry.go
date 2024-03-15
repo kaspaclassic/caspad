@@ -1,11 +1,11 @@
 package rpchandlers
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/rpc/rpccontext"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionid"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/rpc/rpccontext"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionid"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 // HandleGetMempoolEntry handles the respectively named RPC command

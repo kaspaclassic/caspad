@@ -16,12 +16,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/util"
-	"github.com/casklas/caspad/util/network"
-	"github.com/casklas/caspad/version"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/util"
+	"github.com/kaspaclassic/caspad/util/network"
+	"github.com/kaspaclassic/caspad/version"
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
@@ -110,7 +110,7 @@ type Flags struct {
 	Profile                         string        `long:"profile" description:"Enable HTTP profiling on given port -- NOTE port must be between 1024 and 65536"`
 	LogLevel                        string        `short:"d" long:"loglevel" description:"Logging level for all subsystems {trace, debug, info, warn, error, critical} -- You may also specify <subsystem>=<level>,<subsystem2>=<level>,... to set the log level for individual subsystems -- Use show to list available subsystems"`
 	Upnp                            bool          `long:"upnp" description:"Use UPnP to map our listening port outside of NAT"`
-	MinRelayTxFee                   float64       `long:"minrelaytxfee" description:"The minimum transaction fee in PYI/kB to be considered a non-zero fee."`
+	MinRelayTxFee                   float64       `long:"minrelaytxfee" description:"The minimum transaction fee in CAS/kB to be considered a non-zero fee."`
 	MaxOrphanTxs                    uint64        `long:"maxorphantx" description:"Max number of orphan transactions to keep in memory"`
 	BlockMaxMass                    uint64        `long:"blockmaxmass" description:"Maximum transaction mass to be used when creating a block"`
 	UserAgentComments               []string      `long:"uacomment" description:"Comment to add to the user agent -- See BIP 14 for more information."`

@@ -5,12 +5,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/ruleerrors"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
 )
 
 func TestBuildBlockErrorCases(t *testing.T) {

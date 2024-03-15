@@ -5,15 +5,15 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/model/testapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/testapi"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/ruleerrors"
-	"github.com/casklas/caspad/domain/consensus/utils/blockheader"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
-	"github.com/casklas/caspad/util/mstime"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/blockheader"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/util/mstime"
 	"github.com/pkg/errors"
 )
 

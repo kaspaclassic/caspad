@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/stability-tests/common"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/stability-tests/common"
 
 	"github.com/jessevdk/go-flags"
 )

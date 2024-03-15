@@ -3,14 +3,14 @@ package rpccontext
 import (
 	"sync"
 
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/domain/utxoindex"
-	routerpkg "github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/domain/utxoindex"
+	routerpkg "github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

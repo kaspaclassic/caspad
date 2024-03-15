@@ -1,6 +1,6 @@
 package model
 
-import "github.com/casklas/caspad/domain/consensus/model/externalapi"
+import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
 // Transaction represents a generic transaction either in the mempool's main TransactionPool or OrphanPool
 type Transaction interface {

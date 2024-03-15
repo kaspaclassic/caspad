@@ -7,7 +7,7 @@ package appmessage
 import (
 	"net"
 
-	"github.com/casklas/caspad/util/mstime"
+	"github.com/kaspaclassic/caspad/util/mstime"
 )
 
 // NetAddress defines information about a peer on the network including the time

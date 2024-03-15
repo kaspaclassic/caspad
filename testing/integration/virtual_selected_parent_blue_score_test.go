@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/appmessage"
 	"testing"
 )
 

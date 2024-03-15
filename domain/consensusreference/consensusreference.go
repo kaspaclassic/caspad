@@ -1,6 +1,6 @@
 package consensusreference
 
-import "github.com/casklas/caspad/domain/consensus/model/externalapi"
+import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
 // ConsensusReference holds a reference to a consensus object.
 // The consensus object may be swapped with a new one entirely

@@ -1,6 +1,6 @@
 package server
 
-import "github.com/casklas/caspad/domain/consensus/model/externalapi"
+import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
 type walletUTXO struct {
 	Outpoint  *externalapi.DomainOutpoint

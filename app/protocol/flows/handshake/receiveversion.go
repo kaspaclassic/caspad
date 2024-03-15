@@ -1,12 +1,12 @@
 package handshake
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/protocol/common"
-	peerpkg "github.com/casklas/caspad/app/protocol/peer"
-	"github.com/casklas/caspad/app/protocol/protocolerrors"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
+	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
+	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

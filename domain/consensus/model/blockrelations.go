@@ -1,6 +1,6 @@
 package model
 
-import "github.com/casklas/caspad/domain/consensus/model/externalapi"
+import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
 // BlockRelations represents a block's parent/child relations
 type BlockRelations struct {

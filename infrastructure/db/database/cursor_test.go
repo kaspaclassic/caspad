@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
 )
 
 func prepareCursorForTest(t *testing.T, db database.Database, testName string) database.Cursor {

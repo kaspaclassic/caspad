@@ -5,13 +5,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/casklas/caspad/infrastructure/network/netadapter/server"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server"
 	"google.golang.org/grpc"
 )
 

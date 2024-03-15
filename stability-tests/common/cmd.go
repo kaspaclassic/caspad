@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 
@@ -28,5 +28,5 @@ func StartCmd(name string, args ...string) (*exec.Cmd, error) {
 
 // NetworkCliArgumentFromNetParams returns the caspad command line argument that starts the given network.
 func NetworkCliArgumentFromNetParams(params *dagconfig.Params) string {
-	return fmt.Sprintf("--%s", strings.TrimPrefix(params.Name, "pyrin-"))
+	return fmt.Sprintf("--%s", strings.TrimPrefix(params.Name, "caspa-"))
 }

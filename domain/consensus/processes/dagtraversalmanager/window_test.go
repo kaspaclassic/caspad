@@ -5,13 +5,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/hashset"
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashset"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 	"github.com/pkg/errors"
 )
 

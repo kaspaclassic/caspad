@@ -1,6 +1,6 @@
 package model
 
-import "github.com/casklas/caspad/domain/consensus/model/externalapi"
+import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
 // PruningManager resolves and manages the current pruning point
 type PruningManager interface {

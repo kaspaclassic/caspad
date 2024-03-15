@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/casklas/caspad/cmd/caswallet/daemon/client"
-	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/client"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
 )
 
 func newAddress(conf *newAddressConfig) error {

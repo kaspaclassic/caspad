@@ -3,10 +3,10 @@ package rpc
 import (
 	"time"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/infrastructure/network/rpcclient"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
 
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 )
 
 const defaultRPCServer = "localhost"

@@ -5,9 +5,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/casklas/caspad/util/difficulty"
+	"github.com/kaspaclassic/caspad/util/difficulty"
 
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/util"
 )
 
 func ExampleAmount() {
@@ -21,9 +21,9 @@ func ExampleAmount() {
 	a = util.Amount(1e5)
 	fmt.Println("100,000 Leor:", a)
 	// Output:
-	// Zero Leor: 0 PYI
-	// 100,000,000 Leor: 1 PYI
-	// 100,000 Leor: 0.001 PYI
+	// Zero Leor: 0 CAS
+	// 100,000,000 Leor: 1 CAS
+	// 100,000 Leor: 0.001 CAS
 }
 
 func ExampleNewAmount() {
@@ -55,26 +55,26 @@ func ExampleNewAmount() {
 	}
 	fmt.Println(amountNaN) //Output 4
 
-	// Output: 1 PYI
-	// 0.01234567 PYI
-	// 0 PYI
-	// invalid pyrin amount
+	// Output: 1 CAS
+	// 0.01234567 CAS
+	// 0 CAS
+	// invalid caspa amount
 }
 
 func ExampleAmount_unitConversions() {
 	amount := util.Amount(44433322211100)
 
-	fmt.Println("Leor to kPYI:", amount.Format(util.AmountKiloPYI))
-	fmt.Println("Leor to PYI:", amount)
-	fmt.Println("Leor to MilliPYI:", amount.Format(util.AmountMilliPYI))
-	fmt.Println("Leor to MicroPYI:", amount.Format(util.AmountMicroPYI))
+	fmt.Println("Leor to kCAS:", amount.Format(util.AmountKiloCAS))
+	fmt.Println("Leor to CAS:", amount)
+	fmt.Println("Leor to MilliCAS:", amount.Format(util.AmountMilliCAS))
+	fmt.Println("Leor to MicroCAS:", amount.Format(util.AmountMicroCAS))
 	fmt.Println("Leor to Leor:", amount.Format(util.AmountLeor))
 
 	// Output:
-	// Leor to kPYI: 444.333222111 kPYI
-	// Leor to PYI: 444333.222111 PYI
-	// Leor to MilliPYI: 444333222.111 mPYI
-	// Leor to MicroPYI: 444333222111 μPYI
+	// Leor to kCAS: 444.333222111 kCAS
+	// Leor to CAS: 444333.222111 CAS
+	// Leor to MilliCAS: 444333222.111 mCAS
+	// Leor to MicroCAS: 444333222111 μCAS
 	// Leor to Leor: 44433322211100 Leor
 }
 

@@ -1,8 +1,8 @@
 package transactionrelay
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 type handleRequestedTransactionsFlow struct {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 func TestNewErrMissingTxOut(t *testing.T) {

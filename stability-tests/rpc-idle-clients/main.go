@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/casklas/caspad/stability-tests/common"
-	"github.com/casklas/caspad/stability-tests/common/rpc"
-	"github.com/casklas/caspad/util/panics"
-	"github.com/casklas/caspad/util/profiling"
+	"github.com/kaspaclassic/caspad/stability-tests/common"
+	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
+	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/kaspaclassic/caspad/util/profiling"
 	"github.com/pkg/errors"
 )
 

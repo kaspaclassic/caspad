@@ -1,10 +1,10 @@
 package blockrelay
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	peerpkg "github.com/casklas/caspad/app/protocol/peer"
-	"github.com/casklas/caspad/domain"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
+	"github.com/kaspaclassic/caspad/domain"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 // PruningPointProofRequestsContext is the interface for the context needed for the HandlePruningPointProofRequests flow.

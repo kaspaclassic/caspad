@@ -1,10 +1,10 @@
 package appmessage
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
-// MsgRequestIBDBlocks implements the Message interface and represents a pyrin
+// MsgRequestIBDBlocks implements the Message interface and represents a caspa
 // RequestIBDBlocks message. It is used to request blocks as part of the IBD
 // protocol.
 type MsgRequestIBDBlocks struct {

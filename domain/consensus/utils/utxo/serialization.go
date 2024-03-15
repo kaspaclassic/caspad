@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/serialization"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionid"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/serialization"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionid"
 	"github.com/pkg/errors"
 )
 

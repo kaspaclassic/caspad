@@ -1,10 +1,10 @@
 package appmessage
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
-// MsgRequestBlockLocator implements the Message interface and represents a pyrin
+// MsgRequestBlockLocator implements the Message interface and represents a caspa
 // RequestBlockLocator message. It is used to request a block locator between low
 // and high hash.
 // The locator is returned via a locator message (MsgBlockLocator).

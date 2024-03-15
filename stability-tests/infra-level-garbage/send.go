@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/casklas/caspad/app/protocol/common"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
 	"github.com/pkg/errors"
 )
 

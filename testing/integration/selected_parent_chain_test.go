@@ -3,10 +3,10 @@ package integration
 import (
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
 )
 
 func TestVirtualSelectedParentChain(t *testing.T) {

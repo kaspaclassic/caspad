@@ -3,14 +3,14 @@ package blockrelay
 import (
 	"errors"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/protocol/common"
-	"github.com/casklas/caspad/app/protocol/protocolerrors"
-	"github.com/casklas/caspad/domain"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/ruleerrors"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
+	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
+	"github.com/kaspaclassic/caspad/domain"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 // HandleRequestPruningPointUTXOSetContext is the interface for the context needed for the HandleRequestPruningPointUTXOSet flow.

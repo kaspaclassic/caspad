@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 func Benchmark_serializeUTXO(b *testing.B) {

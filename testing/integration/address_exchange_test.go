@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/casklas/caspad/infrastructure/network/addressmanager"
+	"github.com/kaspaclassic/caspad/infrastructure/network/addressmanager"
 )
 
 func TestAddressExchange(t *testing.T) {

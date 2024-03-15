@@ -1,16 +1,16 @@
 package v5
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/protocol/common"
-	"github.com/casklas/caspad/app/protocol/flowcontext"
-	"github.com/casklas/caspad/app/protocol/flows/v5/addressexchange"
-	"github.com/casklas/caspad/app/protocol/flows/v5/blockrelay"
-	"github.com/casklas/caspad/app/protocol/flows/v5/ping"
-	"github.com/casklas/caspad/app/protocol/flows/v5/rejects"
-	"github.com/casklas/caspad/app/protocol/flows/v5/transactionrelay"
-	peerpkg "github.com/casklas/caspad/app/protocol/peer"
-	routerpkg "github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
+	"github.com/kaspaclassic/caspad/app/protocol/flowcontext"
+	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/addressexchange"
+	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/blockrelay"
+	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/ping"
+	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/rejects"
+	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/transactionrelay"
+	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
+	routerpkg "github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 type protocolManager interface {

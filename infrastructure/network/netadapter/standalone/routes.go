@@ -3,12 +3,12 @@ package standalone
 import (
 	"time"
 
-	"github.com/casklas/caspad/infrastructure/network/netadapter"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 // Routes holds the incoming and outgoing routes of a connection created by MinimalNetAdapter

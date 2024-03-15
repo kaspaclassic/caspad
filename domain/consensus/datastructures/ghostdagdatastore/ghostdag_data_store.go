@@ -1,11 +1,11 @@
 package ghostdagdatastore
 
 import (
-	"github.com/casklas/caspad/domain/consensus/database/serialization"
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/lrucacheghostdagdata"
-	"github.com/casklas/caspad/util/staging"
+	"github.com/kaspaclassic/caspad/domain/consensus/database/serialization"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/lrucacheghostdagdata"
+	"github.com/kaspaclassic/caspad/util/staging"
 	"github.com/golang/protobuf/proto"
 )
 

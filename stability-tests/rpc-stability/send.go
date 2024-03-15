@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/casklas/caspad/infrastructure/network/rpcclient/grpcclient"
+	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient/grpcclient"
 	"github.com/pkg/errors"
 )
 

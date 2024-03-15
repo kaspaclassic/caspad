@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/stability-tests/common"
-	"github.com/casklas/caspad/stability-tests/common/rpc"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/stability-tests/common"
+	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
+	"github.com/kaspaclassic/caspad/util"
 	"github.com/pkg/errors"
 )
 
@@ -129,7 +129,7 @@ func areTipsAreEqual(resultA, resultB *appmessage.GetBlockDAGInfoResponseMessage
 }
 
 func mineBlock(syncerRPCAddress string, miningAddress util.Address) error {
-	pyrinMinerCmd, err := common.StartCmd("MINER",
+	caspaMinerCmd, err := common.StartCmd("MINER",
 		"casminer",
 		common.NetworkCliArgumentFromNetParams(activeConfig().NetParams()),
 		"-s", syncerRPCAddress,
@@ -140,5 +140,5 @@ func mineBlock(syncerRPCAddress string, miningAddress util.Address) error {
 	if err != nil {
 		return err
 	}
-	return errors.Wrapf(pyrinMinerCmd.Wait(), "error with command '%s'", pyrinMinerCmd)
+	return errors.Wrapf(caspaMinerCmd.Wait(), "error with command '%s'", caspaMinerCmd)
 }

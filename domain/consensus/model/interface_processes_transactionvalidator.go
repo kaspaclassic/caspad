@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // TransactionValidator exposes a set of validation classes, after which

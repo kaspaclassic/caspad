@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/casklas/caspad/app/protocol/common"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/casklas/caspad/domain"
+	"github.com/kaspaclassic/caspad/domain"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
-	"github.com/casklas/caspad/app/protocol/flowcontext"
-	peerpkg "github.com/casklas/caspad/app/protocol/peer"
-	"github.com/casklas/caspad/infrastructure/config"
-	"github.com/casklas/caspad/infrastructure/network/addressmanager"
-	"github.com/casklas/caspad/infrastructure/network/connmanager"
-	"github.com/casklas/caspad/infrastructure/network/netadapter"
+	"github.com/kaspaclassic/caspad/app/protocol/flowcontext"
+	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/network/addressmanager"
+	"github.com/kaspaclassic/caspad/infrastructure/network/connmanager"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

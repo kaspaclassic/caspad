@@ -2,7 +2,7 @@ dagconfig
 ========
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/casklas/caspad/dagconfig)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kaspaclassic/caspad/dagconfig)
 
 Package dagconfig defines DAG configuration parameters for the standard
 caspad networks and provides the ability for callers to define their own custom
@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/casklas/caspad/util"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/util"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 )
 
 var testnet = flag.Bool("testnet", false, "operate on the testnet Pyrin network")

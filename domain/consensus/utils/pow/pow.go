@@ -1,11 +1,11 @@
 package pow
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/domain/consensus/utils/hashes"
-	"github.com/casklas/caspad/domain/consensus/utils/serialization"
-	"github.com/casklas/caspad/util/difficulty"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashes"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/serialization"
+	"github.com/kaspaclassic/caspad/util/difficulty"
 
 	"math/big"
 

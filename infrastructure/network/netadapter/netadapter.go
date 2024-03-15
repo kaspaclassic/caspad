@@ -4,12 +4,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/infrastructure/config"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/id"
-	routerpkg "github.com/casklas/caspad/infrastructure/network/netadapter/router"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/server"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/server/grpcserver"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/id"
+	routerpkg "github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server/grpcserver"
 	"github.com/pkg/errors"
 )
 

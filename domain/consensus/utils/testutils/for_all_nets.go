@@ -3,8 +3,8 @@ package testutils
 import (
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 )
 
 // ForAllNets runs the passed testFunc with all available networks

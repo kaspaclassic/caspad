@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/casklas/caspad/cmd/caswallet/daemon/client"
-	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/client"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
 )
 
 func createUnsignedTransaction(conf *createUnsignedTransactionConfig) error {

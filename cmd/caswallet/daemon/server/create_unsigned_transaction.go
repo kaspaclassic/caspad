@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/util"
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 )
@@ -106,7 +106,7 @@ func (s *server) selectUTXOs(spendAmount uint64, isSendAll bool, feePerInput uin
 		return nil, 0, 0, err
 	}
 	coinbaseMaturity := s.params.BlockCoinbaseMaturity
-	if dagInfo.NetworkName == "pyrin-testnet" {
+	if dagInfo.NetworkName == "caspa-testnet" {
 		coinbaseMaturity = 1000
 	}
 

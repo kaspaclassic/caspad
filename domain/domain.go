@@ -5,15 +5,15 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/casklas/caspad/domain/consensusreference"
+	"github.com/kaspaclassic/caspad/domain/consensusreference"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/miningmanager"
-	"github.com/casklas/caspad/domain/miningmanager/mempool"
-	"github.com/casklas/caspad/domain/prefixmanager"
-	"github.com/casklas/caspad/domain/prefixmanager/prefix"
-	infrastructuredatabase "github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/miningmanager"
+	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool"
+	"github.com/kaspaclassic/caspad/domain/prefixmanager"
+	"github.com/kaspaclassic/caspad/domain/prefixmanager/prefix"
+	infrastructuredatabase "github.com/kaspaclassic/caspad/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

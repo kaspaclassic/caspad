@@ -3,11 +3,11 @@ package blockvalidator
 import (
 	"fmt"
 
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/ruleerrors"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

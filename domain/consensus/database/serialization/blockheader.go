@@ -1,8 +1,8 @@
 package serialization
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/blockheader"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/blockheader"
 	"github.com/pkg/errors"
 	"math"
 	"math/big"

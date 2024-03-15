@@ -4,9 +4,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/util/difficulty"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/util/difficulty"
 )
 
 type difficultyBlock struct {

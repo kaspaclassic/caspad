@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/infrastructure/config"
-	"github.com/casklas/caspad/infrastructure/db/database/ldb"
-	"github.com/casklas/caspad/util/mstime"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database/ldb"
+	"github.com/kaspaclassic/caspad/util/mstime"
 )
 
 func newAddressManagerForTest(t *testing.T, testName string) (addressManager *AddressManager, teardown func()) {

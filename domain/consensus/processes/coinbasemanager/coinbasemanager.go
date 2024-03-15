@@ -3,13 +3,13 @@ package coinbasemanager
 import (
 	"math"
 
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/domain/consensus/utils/hashset"
-	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashset"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

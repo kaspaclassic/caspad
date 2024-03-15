@@ -2,8 +2,8 @@ package utxoindex
 
 import (
 	"encoding/binary"
-	"github.com/casklas/caspad/domain/consensus/database/serialization"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/database/serialization"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 	"io"

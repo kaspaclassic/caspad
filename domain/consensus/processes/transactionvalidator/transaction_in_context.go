@@ -3,13 +3,13 @@ package transactionvalidator
 import (
 	"math"
 
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/ruleerrors"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
 	"github.com/pkg/errors"
 )
 
@@ -150,7 +150,7 @@ func (v *transactionValidator) checkTransactionInputAmounts(tx *externalapi.Doma
 		// output values of the input transactions must not be negative
 		// or more than the max allowed per transaction. All amounts in
 		// a transaction are in a unit value known as a leor. One
-		// pyrin is a quantity of leor as defined by the
+		// caspa is a quantity of leor as defined by the
 		// LeorPerPyrin constant.
 		totalLeorIn, err = v.checkEntryAmounts(utxoEntry, totalLeorIn)
 		if err != nil {

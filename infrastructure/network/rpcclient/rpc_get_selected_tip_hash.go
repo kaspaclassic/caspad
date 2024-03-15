@@ -1,6 +1,6 @@
 package rpcclient
 
-import "github.com/casklas/caspad/app/appmessage"
+import "github.com/kaspaclassic/caspad/app/appmessage"
 
 // GetSelectedTipHash sends an RPC request respective to the function's name and returns the RPC server's response
 func (c *RPCClient) GetSelectedTipHash() (*appmessage.GetSelectedTipHashResponseMessage, error) {

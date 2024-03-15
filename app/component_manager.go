@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
-	"github.com/casklas/caspad/domain/miningmanager/mempool"
+	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool"
 
-	"github.com/casklas/caspad/app/protocol"
-	"github.com/casklas/caspad/app/rpc"
-	"github.com/casklas/caspad/domain"
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/utxoindex"
-	"github.com/casklas/caspad/infrastructure/config"
-	infrastructuredatabase "github.com/casklas/caspad/infrastructure/db/database"
-	"github.com/casklas/caspad/infrastructure/network/addressmanager"
-	"github.com/casklas/caspad/infrastructure/network/connmanager"
-	"github.com/casklas/caspad/infrastructure/network/netadapter"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/id"
-	"github.com/casklas/caspad/util/panics"
+	"github.com/kaspaclassic/caspad/app/protocol"
+	"github.com/kaspaclassic/caspad/app/rpc"
+	"github.com/kaspaclassic/caspad/domain"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/utxoindex"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	infrastructuredatabase "github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/infrastructure/network/addressmanager"
+	"github.com/kaspaclassic/caspad/infrastructure/network/connmanager"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/id"
+	"github.com/kaspaclassic/caspad/util/panics"
 )
 
 // ComponentManager is a wrapper for all the caspad services

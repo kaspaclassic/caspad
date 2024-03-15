@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgPruningPointProof represents a pyrin PruningPointProof message
+// MsgPruningPointProof represents a caspa PruningPointProof message
 type MsgPruningPointProof struct {
 	baseMessage
 

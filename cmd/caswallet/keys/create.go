@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
-	"github.com/casklas/caspad/cmd/caswallet/utils"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/utils"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 )

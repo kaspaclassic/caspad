@@ -3,8 +3,8 @@ package libcaswallet
 import (
 	"fmt"
 
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/bip32"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/bip32"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 )

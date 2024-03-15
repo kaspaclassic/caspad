@@ -1,22 +1,22 @@
 package handshake
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/protocol/common"
-	peerpkg "github.com/casklas/caspad/app/protocol/peer"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
-	"github.com/casklas/caspad/version"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/protocol/common"
+	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/version"
 	"github.com/pkg/errors"
 )
 
 var (
 	// userAgentName is the user agent name and is used to help identify
-	// ourselves to other pyrin peers.
+	// ourselves to other caspa peers.
 	userAgentName = "caspad"
 
 	// userAgentVersion is the user agent version and is used to help
-	// identify ourselves to other pyrin peers.
+	// identify ourselves to other caspa peers.
 	userAgentVersion = version.Version()
 
 	// defaultServices describes the default services that are supported by

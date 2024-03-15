@@ -3,10 +3,10 @@ package utxoindex
 import (
 	"sync"
 
-	"github.com/casklas/caspad/domain"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/infrastructure/db/database"
-	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/domain"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
 )
 
 // UTXOIndex maintains an index between transaction scriptPublicKeys

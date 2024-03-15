@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // DomainAcceptanceDataToDbAcceptanceData converts model.AcceptanceData to DbAcceptanceData

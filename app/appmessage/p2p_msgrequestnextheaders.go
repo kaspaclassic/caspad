@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgRequestNextHeaders implements the Message interface and represents a pyrin
+// MsgRequestNextHeaders implements the Message interface and represents a caspa
 // RequestNextHeaders message. It is used to notify the IBD syncer peer to send
 // more headers.
 //
@@ -15,7 +15,7 @@ func (msg *MsgRequestNextHeaders) Command() MessageCommand {
 	return CmdRequestNextHeaders
 }
 
-// NewMsgRequestNextHeaders returns a new pyrin RequestNextHeaders message that conforms to the
+// NewMsgRequestNextHeaders returns a new caspa RequestNextHeaders message that conforms to the
 // Message interface.
 func NewMsgRequestNextHeaders() *MsgRequestNextHeaders {
 	return &MsgRequestNextHeaders{}

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/infrastructure/network/rpcclient"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 	"time"
 )

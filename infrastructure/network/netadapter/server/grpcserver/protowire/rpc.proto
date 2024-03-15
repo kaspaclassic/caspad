@@ -10,7 +10,7 @@
 syntax = "proto3";
 package protowire;
 
-option go_package = "github.com/casklas/caspad/protowire";
+option go_package = "github.com/kaspaclassic/caspad/protowire";
 
 // RPCError represents a generic non-internal error.
 //
@@ -150,7 +150,7 @@ message SubmitBlockResponseMessage{
 //
 // See: SubmitBlockRequestMessage
 message GetBlockTemplateRequestMessage{
-  // Which pyrin address should the coinbase block reward transaction pay into
+  // Which caspa address should the coinbase block reward transaction pay into
   string payAddress = 1;
   string extraData = 2;
 }

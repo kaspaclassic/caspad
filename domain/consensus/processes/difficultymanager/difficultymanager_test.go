@@ -4,17 +4,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/casklas/caspad/util/difficulty"
+	"github.com/kaspaclassic/caspad/util/difficulty"
 
-	"github.com/casklas/caspad/util/mstime"
+	"github.com/kaspaclassic/caspad/util/mstime"
 
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
-	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
 )
 
 func TestDifficulty(t *testing.T) {

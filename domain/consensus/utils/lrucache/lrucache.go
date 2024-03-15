@@ -1,7 +1,7 @@
 package lrucache
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // LRUCache is a least-recently-used cache for any type

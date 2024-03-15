@@ -3,8 +3,8 @@ package pow
 import (
 	"math"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/hashes"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashes"
 )
 
 const eps float64 = 1e-9

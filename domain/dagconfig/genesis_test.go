@@ -7,7 +7,7 @@ package dagconfig
 import (
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
 )
 
 // TestGenesisBlock tests the genesis block of the main network for validity by

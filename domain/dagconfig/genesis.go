@@ -8,10 +8,10 @@ import (
 	"math/big"
 
 	"github.com/kaspanet/go-muhash"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/blockheader"
-	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/blockheader"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
 )
 
 var genesisTxOuts = []*externalapi.DomainTransactionOutput{}
@@ -200,7 +200,7 @@ var testnetGenesisTxPayload = []byte{
 	0x00, 0x00, // Script version
 	0x01,                                                                         // Varint
 	0x00,                                                                         // OP-FALSE
-	0x70, 0x79, 0x72, 0x69, 0x6e, 0x2d, 0x74, 0x65, 0x73, 0x74, 0x6e, 0x65, 0x74, // pyrin-testnet
+	0x70, 0x79, 0x72, 0x69, 0x6e, 0x2d, 0x74, 0x65, 0x73, 0x74, 0x6e, 0x65, 0x74, // caspa-testnet
 }
 
 // testnetGenesisCoinbaseTx is the coinbase transaction for the testnet genesis block.

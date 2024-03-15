@@ -8,16 +8,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
 
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/util"
 )
 
 func mkGetKey(keys map[string]*secp256k1.SchnorrKeyPair) KeyDB {

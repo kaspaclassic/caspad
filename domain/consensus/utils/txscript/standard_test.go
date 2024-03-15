@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/util"
 )
 
 // mustParseShortForm parses the passed short form script and returns the

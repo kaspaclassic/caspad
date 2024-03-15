@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/casklas/caspad/infrastructure/config"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/standalone"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/standalone"
 )
 
 func connectToNode() *standalone.Routes {

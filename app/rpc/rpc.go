@@ -1,11 +1,11 @@
 package rpc
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/app/rpc/rpccontext"
-	"github.com/casklas/caspad/app/rpc/rpchandlers"
-	"github.com/casklas/caspad/infrastructure/network/netadapter"
-	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/rpc/rpccontext"
+	"github.com/kaspaclassic/caspad/app/rpc/rpchandlers"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

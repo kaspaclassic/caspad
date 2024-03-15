@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
-	"github.com/casklas/caspad/util/txmass"
+	"github.com/kaspaclassic/caspad/util/txmass"
 
-	"github.com/casklas/caspad/util/profiling"
+	"github.com/kaspaclassic/caspad/util/profiling"
 
-	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
-	"github.com/casklas/caspad/cmd/caswallet/keys"
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/infrastructure/network/rpcclient"
-	"github.com/casklas/caspad/infrastructure/os/signal"
-	"github.com/casklas/caspad/util/panics"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/keys"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
+	"github.com/kaspaclassic/caspad/infrastructure/os/signal"
+	"github.com/kaspaclassic/caspad/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

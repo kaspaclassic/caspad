@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgDoneHeaders implements the Message interface and represents a pyrin
+// MsgDoneHeaders implements the Message interface and represents a caspa
 // DoneHeaders message. It is used to notify the IBD syncing peer that the
 // syncer sent all the requested headers.
 //
@@ -15,7 +15,7 @@ func (msg *MsgDoneHeaders) Command() MessageCommand {
 	return CmdDoneHeaders
 }
 
-// NewMsgDoneHeaders returns a new pyrin DoneIBDBlocks message that conforms to the
+// NewMsgDoneHeaders returns a new caspa DoneIBDBlocks message that conforms to the
 // Message interface.
 func NewMsgDoneHeaders() *MsgDoneHeaders {
 	return &MsgDoneHeaders{}

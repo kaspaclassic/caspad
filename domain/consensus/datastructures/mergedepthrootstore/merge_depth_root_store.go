@@ -1,10 +1,10 @@
 package mergedepthrootstore
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/lrucache"
-	"github.com/casklas/caspad/util/staging"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/lrucache"
+	"github.com/kaspaclassic/caspad/util/staging"
 )
 
 var bucketName = []byte("merge-depth-roots")

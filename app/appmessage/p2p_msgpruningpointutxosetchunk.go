@@ -1,8 +1,8 @@
 package appmessage
 
-import "github.com/casklas/caspad/domain/consensus/model/externalapi"
+import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 
-// MsgPruningPointUTXOSetChunk represents a pyrin PruningPointUTXOSetChunk message
+// MsgPruningPointUTXOSetChunk represents a caspa PruningPointUTXOSetChunk message
 type MsgPruningPointUTXOSetChunk struct {
 	baseMessage
 	OutpointAndUTXOEntryPairs []*OutpointAndUTXOEntryPair

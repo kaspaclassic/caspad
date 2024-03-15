@@ -1,12 +1,12 @@
 package integration
 
 import (
-	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
 	"runtime"
 	"testing"
 	"time"
 
-	"github.com/casklas/caspad/infrastructure/network/rpcclient"
+	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
 )
 
 const rpcTimeout = 10 * time.Second

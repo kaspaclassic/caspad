@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/casklas/caspad/infrastructure/os/limits"
+	"github.com/kaspaclassic/caspad/infrastructure/os/limits"
 )
 
 // Initialize initializes the execution environment required to run caspad

@@ -1,8 +1,8 @@
 package mine
 
 import (
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/util/panics"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/util/panics"
 )
 
 // log is a logger that is initialized with no output filters. This

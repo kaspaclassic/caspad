@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
 )
 
 func TestMain(m *testing.M) {

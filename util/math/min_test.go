@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	utilMath "github.com/casklas/caspad/util/math"
+	utilMath "github.com/kaspaclassic/caspad/util/math"
 )
 
 const (

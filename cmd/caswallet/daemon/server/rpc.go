@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/casklas/caspad/domain/dagconfig"
-	"github.com/casklas/caspad/infrastructure/network/rpcclient"
+	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
 )
 
 func connectToRPC(params *dagconfig.Params, rpcServer string, timeout uint32) (*rpcclient.RPCClient, error) {

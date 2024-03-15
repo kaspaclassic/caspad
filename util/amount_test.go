@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
 )
 
 func TestAmountCreation(t *testing.T) {
@@ -101,40 +101,40 @@ func TestAmountUnitConversions(t *testing.T) {
 		s         string
 	}{
 		{
-			name:      "MPYI",
+			name:      "MCAS",
 			amount:    Amount(constants.MaxLeor),
-			unit:      AmountMegaPYI,
+			unit:      AmountMegaCAS,
 			converted: 29000,
-			s:         "29000 MPYI",
+			s:         "29000 MCAS",
 		},
 		{
-			name:      "kPYI",
+			name:      "kCAS",
 			amount:    44433322211100,
-			unit:      AmountKiloPYI,
+			unit:      AmountKiloCAS,
 			converted: 444.33322211100,
-			s:         "444.333222111 kPYI",
+			s:         "444.333222111 kCAS",
 		},
 		{
-			name:      "PYI",
+			name:      "CAS",
 			amount:    44433322211100,
-			unit:      AmountPYI,
+			unit:      AmountCAS,
 			converted: 444333.22211100,
-			s:         "444333.222111 PYI",
+			s:         "444333.222111 CAS",
 		},
 		{
-			name:      "mPYI",
+			name:      "mCAS",
 			amount:    44433322211100,
-			unit:      AmountMilliPYI,
+			unit:      AmountMilliCAS,
 			converted: 444333222.11100,
-			s:         "444333222.111 mPYI",
+			s:         "444333222.111 mCAS",
 		},
 		{
 
-			name:      "μPYI",
+			name:      "μCAS",
 			amount:    44433322211100,
-			unit:      AmountMicroPYI,
+			unit:      AmountMicroCAS,
 			converted: 444333222111.00,
-			s:         "444333222111 μPYI",
+			s:         "444333222111 μCAS",
 		},
 		{
 
@@ -150,7 +150,7 @@ func TestAmountUnitConversions(t *testing.T) {
 			amount:    44433322211100,
 			unit:      AmountUnit(-1),
 			converted: 4443332.2211100,
-			s:         "4443332.22111 1e-1 PYI",
+			s:         "4443332.22111 1e-1 CAS",
 		},
 	}
 
@@ -167,18 +167,18 @@ func TestAmountUnitConversions(t *testing.T) {
 			continue
 		}
 
-		// Verify that Amount.ToPYI works as advertised.
-		f1 := test.amount.ToUnit(AmountPYI)
-		f2 := test.amount.ToPYI()
+		// Verify that Amount.ToCAS works as advertised.
+		f1 := test.amount.ToUnit(AmountCAS)
+		f2 := test.amount.ToCAS()
 		if f1 != f2 {
-			t.Errorf("%v: ToPYI does not match ToUnit(AmountPYI): %v != %v", test.name, f1, f2)
+			t.Errorf("%v: ToCAS does not match ToUnit(AmountCAS): %v != %v", test.name, f1, f2)
 		}
 
 		// Verify that Amount.String works as advertised.
-		s1 := test.amount.Format(AmountPYI)
+		s1 := test.amount.Format(AmountCAS)
 		s2 := test.amount.String()
 		if s1 != s2 {
-			t.Errorf("%v: String does not match Format(AmountPYI): %v != %v", test.name, s1, s2)
+			t.Errorf("%v: String does not match Format(AmountCAS): %v != %v", test.name, s1, s2)
 		}
 	}
 }
@@ -191,16 +191,16 @@ func TestAmountMulF64(t *testing.T) {
 		res  Amount
 	}{
 		{
-			name: "Multiply 0.1 PYI by 2",
-			amt:  100e5, // 0.1 PYI
+			name: "Multiply 0.1 CAS by 2",
+			amt:  100e5, // 0.1 CAS
 			mul:  2,
-			res:  200e5, // 0.2 PYI
+			res:  200e5, // 0.2 CAS
 		},
 		{
-			name: "Multiply 0.2 PYI by 0.02",
-			amt:  200e5, // 0.2 PYI
+			name: "Multiply 0.2 CAS by 0.02",
+			amt:  200e5, // 0.2 CAS
 			mul:  1.02,
-			res:  204e5, // 0.204 PYI
+			res:  204e5, // 0.204 CAS
 		},
 		{
 			name: "Round down",
@@ -216,9 +216,9 @@ func TestAmountMulF64(t *testing.T) {
 		},
 		{
 			name: "Multiply by 0.",
-			amt:  1e8, // 1 PYI
+			amt:  1e8, // 1 CAS
 			mul:  0,
-			res:  0, // 0 PYI
+			res:  0, // 0 CAS
 		},
 		{
 			name: "Multiply 1 by 0.5.",

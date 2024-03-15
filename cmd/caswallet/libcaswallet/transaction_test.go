@@ -5,16 +5,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/util"
 
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
-	"github.com/casklas/caspad/domain/consensus/utils/txscript"
-	"github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
 )
 
 func forSchnorrAndECDSA(t *testing.T, testFunc func(t *testing.T, ecdsa bool)) {

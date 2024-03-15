@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/casklas/caspad/infrastructure/config"
-	"github.com/casklas/caspad/infrastructure/db/database"
-	"github.com/casklas/caspad/infrastructure/db/database/ldb"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/infrastructure/os/execenv"
-	"github.com/casklas/caspad/infrastructure/os/limits"
-	"github.com/casklas/caspad/infrastructure/os/signal"
-	"github.com/casklas/caspad/infrastructure/os/winservice"
-	"github.com/casklas/caspad/util/panics"
-	"github.com/casklas/caspad/util/profiling"
-	"github.com/casklas/caspad/version"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database/ldb"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/os/execenv"
+	"github.com/kaspaclassic/caspad/infrastructure/os/limits"
+	"github.com/kaspaclassic/caspad/infrastructure/os/signal"
+	"github.com/kaspaclassic/caspad/infrastructure/os/winservice"
+	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/kaspaclassic/caspad/util/profiling"
+	"github.com/kaspaclassic/caspad/version"
 )
 
 const (

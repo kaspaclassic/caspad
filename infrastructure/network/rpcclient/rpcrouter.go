@@ -1,8 +1,8 @@
 package rpcclient
 
 import (
-	"github.com/casklas/caspad/app/appmessage"
-	routerpkg "github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	routerpkg "github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
 )
 
 type rpcRouter struct {

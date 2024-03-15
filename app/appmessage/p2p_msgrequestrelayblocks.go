@@ -1,14 +1,14 @@
 package appmessage
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
 // MaxRequestRelayBlocksHashes is the maximum number of hashes that can
 // be in a single RequestRelayBlocks message.
 const MaxRequestRelayBlocksHashes = MaxInvPerMsg
 
-// MsgRequestRelayBlocks implements the Message interface and represents a pyrin
+// MsgRequestRelayBlocks implements the Message interface and represents a caspa
 // RequestRelayBlocks message. It is used to request blocks as part of the block
 // relay protocol.
 type MsgRequestRelayBlocks struct {
@@ -22,7 +22,7 @@ func (msg *MsgRequestRelayBlocks) Command() MessageCommand {
 	return CmdRequestRelayBlocks
 }
 
-// NewMsgRequestRelayBlocks returns a new pyrin RequestRelayBlocks message that conforms to
+// NewMsgRequestRelayBlocks returns a new caspa RequestRelayBlocks message that conforms to
 // the Message interface. See MsgRequestRelayBlocks for details.
 func NewMsgRequestRelayBlocks(hashes []*externalapi.DomainHash) *MsgRequestRelayBlocks {
 	return &MsgRequestRelayBlocks{

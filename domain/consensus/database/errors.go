@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/kaspaclassic/caspad/infrastructure/db/database"
 )
 
 // ErrNotFound denotes that the requested item was not

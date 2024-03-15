@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/domain/miningmanager/mempool/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool/model"
 )
 
 type transactionsPool struct {

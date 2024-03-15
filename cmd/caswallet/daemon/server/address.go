@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
+	"github.com/kaspaclassic/caspad/util"
 //my-add	"github.com/pkg/errors"
 )
 

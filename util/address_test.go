@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/util"
 )
 
 func TestAddresses(t *testing.T) {
@@ -33,8 +33,8 @@ func TestAddresses(t *testing.T) {
 		// Positive P2PK tests.
 		{
 			name:    "mainnet p2pk",
-			addr:    "pyrin:qq2u4dvcpvdcn0k03afx0lgqhlj06kk0ay8std3t87tuexlhq7m87e4n078d6",
-			encoded: "pyrin:qq2u4dvcpvdcn0k03afx0lgqhlj06kk0ay8std3t87tuexlhq7m87e4n078d6",
+			addr:    "caspa:qq2u4dvcpvdcn0k03afx0lgqhlj06kk0ay8std3t87tuexlhq7m87e4n078d6",
+			encoded: "caspa:qq2u4dvcpvdcn0k03afx0lgqhlj06kk0ay8std3t87tuexlhq7m87e4n078d6",
 			valid:   true,
 			result: util.TstAddressPubKey(
 				util.Bech32PrefixPyrin,
@@ -57,8 +57,8 @@ func TestAddresses(t *testing.T) {
 		},
 		{
 			name:    "mainnet p2pk 2",
-			addr:    "pyrin:qq80qvqs0lfxuzmt7sz3909ze6camq9d4t35ennsep3hxfe7ln35cvfqgz3z8",
-			encoded: "pyrin:qq80qvqs0lfxuzmt7sz3909ze6camq9d4t35ennsep3hxfe7ln35cvfqgz3z8",
+			addr:    "caspa:qq80qvqs0lfxuzmt7sz3909ze6camq9d4t35ennsep3hxfe7ln35cvfqgz3z8",
+			encoded: "caspa:qq80qvqs0lfxuzmt7sz3909ze6camq9d4t35ennsep3hxfe7ln35cvfqgz3z8",
 			valid:   true,
 			result: util.TstAddressPubKey(
 				util.Bech32PrefixPyrin,
@@ -82,8 +82,8 @@ func TestAddresses(t *testing.T) {
 		},
 		{
 			name:    "testnet p2pk",
-			addr:    "pyrintest:qph45l0y247vu078ktt3g0r0qefeqqqxrushmz4hlv2fjg6vfk3njk7pp4mh0",
-			encoded: "pyrintest:qph45l0y247vu078ktt3g0r0qefeqqqxrushmz4hlv2fjg6vfk3njk7pp4mh0",
+			addr:    "caspatest:qph45l0y247vu078ktt3g0r0qefeqqqxrushmz4hlv2fjg6vfk3njk7pp4mh0",
+			encoded: "caspatest:qph45l0y247vu078ktt3g0r0qefeqqqxrushmz4hlv2fjg6vfk3njk7pp4mh0",
 			valid:   true,
 			result: util.TstAddressPubKey(
 				util.Bech32PrefixPyrinTest,
@@ -109,8 +109,8 @@ func TestAddresses(t *testing.T) {
 		// ECDSA P2PK tests.
 		{
 			name:    "mainnet ecdsa p2pk",
-			addr:    "pyrin:q835ennsep3hxfe7lnz5ee7j5jgmkjswsn35ennsep3hxfe7ln35e2sm7yrlr4w",
-			encoded: "pyrin:q835ennsep3hxfe7lnz5ee7j5jgmkjswsn35ennsep3hxfe7ln35e2sm7yrlr4w",
+			addr:    "caspa:q835ennsep3hxfe7lnz5ee7j5jgmkjswsn35ennsep3hxfe7ln35e2sm7yrlr4w",
+			encoded: "caspa:q835ennsep3hxfe7lnz5ee7j5jgmkjswsn35ennsep3hxfe7ln35e2sm7yrlr4w",
 			valid:   true,
 			result: util.TstAddressPubKeyECDSA(
 				util.Bech32PrefixPyrin,
@@ -149,7 +149,7 @@ func TestAddresses(t *testing.T) {
 		},
 		{
 			name:           "p2pk bad checksum",
-			addr:           "pyrin:qr35ennsep3hxfe7lnz5ee7j5jgmkjswss74as46gx",
+			addr:           "caspa:qr35ennsep3hxfe7lnz5ee7j5jgmkjswss74as46gx",
 			valid:          false,
 			passedPrefix:   util.Bech32PrefixPyrin,
 			expectedPrefix: util.Bech32PrefixPyrin,
@@ -158,8 +158,8 @@ func TestAddresses(t *testing.T) {
 		// Positive P2SH tests.
 		{
 			name:    "mainnet p2sh",
-			addr:    "pyrin:prq20q4qd9ulr044cauyy9wtpeupqpjv67pn2vyc6acly7xqkrjdzmh8rj9f4",
-			encoded: "pyrin:prq20q4qd9ulr044cauyy9wtpeupqpjv67pn2vyc6acly7xqkrjdzmh8rj9f4",
+			addr:    "caspa:prq20q4qd9ulr044cauyy9wtpeupqpjv67pn2vyc6acly7xqkrjdzmh8rj9f4",
+			encoded: "caspa:prq20q4qd9ulr044cauyy9wtpeupqpjv67pn2vyc6acly7xqkrjdzmh8rj9f4",
 			valid:   true,
 			result: util.TstAddressScriptHash(
 				util.Bech32PrefixPyrin,
@@ -199,8 +199,8 @@ func TestAddresses(t *testing.T) {
 		},
 		{
 			name:    "mainnet p2sh 2",
-			addr:    "pyrin:pr5vxqxg0xrwl2zvxlq9rxffqx00sm44kn5vxqxg0xrwl2zvxl5vxyhvsake2",
-			encoded: "pyrin:pr5vxqxg0xrwl2zvxlq9rxffqx00sm44kn5vxqxg0xrwl2zvxl5vxyhvsake2",
+			addr:    "caspa:pr5vxqxg0xrwl2zvxlq9rxffqx00sm44kn5vxqxg0xrwl2zvxl5vxyhvsake2",
+			encoded: "caspa:pr5vxqxg0xrwl2zvxlq9rxffqx00sm44kn5vxqxg0xrwl2zvxl5vxyhvsake2",
 			valid:   true,
 			result: util.TstAddressScriptHash(
 				util.Bech32PrefixPyrin,
@@ -224,8 +224,8 @@ func TestAddresses(t *testing.T) {
 		},
 		{
 			name:    "testnet p2sh",
-			addr:    "pyrintest:qpcs7zh3ufpv20eekyyy0f7u6fgz0mm9mf9s778qqx2zfvfmnxx86gjmfwhnh",
-			encoded: "pyrintest:qpcs7zh3ufpv20eekyyy0f7u6fgz0mm9mf9s778qqx2zfvfmnxx86gjmfwhnh",
+			addr:    "caspatest:qpcs7zh3ufpv20eekyyy0f7u6fgz0mm9mf9s778qqx2zfvfmnxx86gjmfwhnh",
+			encoded: "caspatest:qpcs7zh3ufpv20eekyyy0f7u6fgz0mm9mf9s778qqx2zfvfmnxx86gjmfwhnh",
 			valid:   true,
 			result: util.TstAddressScriptHash(
 				util.Bech32PrefixPyrinTest,
@@ -391,17 +391,17 @@ func TestDecodeAddressErrorConditions(t *testing.T) {
 			"decoded address's prefix could not be parsed",
 		},
 		//{
-		//	"pyrinsim:qz830led3jg2wpym5nv8wfg6g3nz8cwt92zhc4azpzgjr6rz95nezuqmzj40a",
+		//	"caspasim:qz830led3jg2wpym5nv8wfg6g3nz8cwt92zhc4azpzgjr6rz95nezuqmzj40a",
 		//	util.Bech32PrefixPyrinSim,
 		//	"unknown address type",
 		//},
 		//{
-		//	"pyrinsim:raskzcg58mth0an",
+		//	"caspasim:raskzcg58mth0an",
 		//	util.Bech32PrefixPyrinSim,
 		//	"unknown address type",
 		//},
 		{
-			"pyrintest:qpcs7zh3ufpv20eekyyy0f7u6fgz0mm9mf9s778qqx2zfvfmnxx86gjmfwhnh",
+			"caspatest:qpcs7zh3ufpv20eekyyy0f7u6fgz0mm9mf9s778qqx2zfvfmnxx86gjmfwhnh",
 			util.Bech32PrefixPyrin,
 			"decoded address is of wrong network",
 		},
@@ -424,9 +424,9 @@ func TestParsePrefix(t *testing.T) {
 		expectedPrefix util.Bech32Prefix
 		expectedError  bool
 	}{
-		{"pyrin", util.Bech32PrefixPyrin, false},
-		{"pyrintest", util.Bech32PrefixPyrinTest, false},
-		{"pyrinsim", util.Bech32PrefixPyrinSim, false},
+		{"caspa", util.Bech32PrefixPyrin, false},
+		{"caspatest", util.Bech32PrefixPyrinTest, false},
+		{"caspasim", util.Bech32PrefixPyrinSim, false},
 		{"blabla", util.Bech32PrefixUnknown, true},
 		{"unknown", util.Bech32PrefixUnknown, true},
 		{"", util.Bech32PrefixUnknown, true},
@@ -451,9 +451,9 @@ func TestPrefixToString(t *testing.T) {
 		prefix            util.Bech32Prefix
 		expectedPrefixStr string
 	}{
-		{util.Bech32PrefixPyrin, "pyrin"},
-		{util.Bech32PrefixPyrinTest, "pyrintest"},
-		{util.Bech32PrefixPyrinSim, "pyrinsim"},
+		{util.Bech32PrefixPyrin, "caspa"},
+		{util.Bech32PrefixPyrinTest, "caspatest"},
+		{util.Bech32PrefixPyrinSim, "caspasim"},
 		{util.Bech32PrefixUnknown, ""},
 	}
 

@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/casklas/caspad/infrastructure/network/netadapter/id"
+	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/id"
 	"github.com/davecgh/go-spew/spew"
 )
 

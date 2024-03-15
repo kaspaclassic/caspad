@@ -4,10 +4,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/casklas/caspad/infrastructure/config"
-	"github.com/casklas/caspad/infrastructure/logger"
-	"github.com/casklas/caspad/stability-tests/common"
-	"github.com/casklas/caspad/stability-tests/common/rpc"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/stability-tests/common"
+	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
 
 	"github.com/jessevdk/go-flags"
 )

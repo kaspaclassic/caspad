@@ -3,7 +3,7 @@ package reachabilitymanager
 import (
 	"math"
 
-	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/kaspaclassic/caspad/domain/consensus/model"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package winservice
 
 import (
-	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/kaspaclassic/caspad/infrastructure/config"
 	"github.com/btcsuite/winsvc/svc"
 )
 

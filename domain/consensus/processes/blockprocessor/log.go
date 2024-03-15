@@ -1,7 +1,7 @@
 package blockprocessor
 
 import (
-	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/kaspaclassic/caspad/infrastructure/logger"
 )
 
 var log = logger.RegisterSubSystem("BDAG")

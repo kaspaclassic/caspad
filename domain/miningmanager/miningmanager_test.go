@@ -5,25 +5,25 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
-	"github.com/casklas/caspad/domain/consensusreference"
-	"github.com/casklas/caspad/domain/miningmanager/model"
-	"github.com/casklas/caspad/util"
-	"github.com/casklas/caspad/version"
+	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
+	"github.com/kaspaclassic/caspad/domain/consensusreference"
+	"github.com/kaspaclassic/caspad/domain/miningmanager/model"
+	"github.com/kaspaclassic/caspad/util"
+	"github.com/kaspaclassic/caspad/version"
 
-	"github.com/casklas/caspad/domain/miningmanager/mempool"
+	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool"
 
-	"github.com/casklas/caspad/domain/consensus"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/model/testapi"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
-	"github.com/casklas/caspad/domain/consensus/utils/testutils"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/casklas/caspad/domain/consensus/utils/txscript"
-	"github.com/casklas/caspad/domain/consensus/utils/utxo"
-	"github.com/casklas/caspad/domain/miningmanager"
+	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/testapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
+	"github.com/kaspaclassic/caspad/domain/miningmanager"
 	"github.com/pkg/errors"
 )
 
@@ -929,7 +929,7 @@ func createTransactionWithUTXOEntry(t *testing.T, i int, daaScore uint64) *exter
 		SignatureScript:  signatureScript,
 		Sequence:         constants.MaxTxInSequenceNum,
 		UTXOEntry: utxo.NewUTXOEntry(
-			100000000, // 1 PYI
+			100000000, // 1 CAS
 			scriptPublicKey,
 			true,
 			daaScore),

@@ -4,15 +4,15 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
 
-	"github.com/casklas/caspad/app/appmessage"
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
-	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
-	"github.com/casklas/caspad/domain/consensus/utils/constants"
-	"github.com/casklas/caspad/domain/consensus/utils/transactionid"
-	"github.com/casklas/caspad/domain/consensus/utils/txscript"
-	"github.com/casklas/caspad/util"
+	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionid"
+	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
+	"github.com/kaspaclassic/caspad/util"
 )
 
 func TestUTXOIndex(t *testing.T) {

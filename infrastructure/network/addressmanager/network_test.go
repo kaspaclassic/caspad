@@ -8,7 +8,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/casklas/caspad/app/appmessage"
+	"github.com/kaspaclassic/caspad/app/appmessage"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

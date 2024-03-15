@@ -1,10 +1,10 @@
 package appmessage
 
 import (
-	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
 )
 
-// MsgIBDBlockLocatorHighestHash represents a pyrin BlockLocatorHighestHash message
+// MsgIBDBlockLocatorHighestHash represents a caspa BlockLocatorHighestHash message
 type MsgIBDBlockLocatorHighestHash struct {
 	baseMessage
 	HighestHash *externalapi.DomainHash

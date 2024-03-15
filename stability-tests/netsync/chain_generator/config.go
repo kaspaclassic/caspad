@@ -3,7 +3,7 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/casklas/caspad/stability-tests/common"
+	"github.com/kaspaclassic/caspad/stability-tests/common"
 	"github.com/jessevdk/go-flags"
 )
 

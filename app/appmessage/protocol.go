@@ -16,7 +16,7 @@ const (
 	DefaultServices = SFNodeNetwork | SFNodeBloom | SFNodeCF
 )
 
-// ServiceFlag identifies services supported by a pyrin peer.
+// ServiceFlag identifies services supported by a caspa peer.
 type ServiceFlag uint64
 
 const (
@@ -89,15 +89,15 @@ func (f ServiceFlag) String() string {
 	return s
 }
 
-// PyrinpyiNet represents which pyrin network a message belongs to.
+// PyrinpyiNet represents which caspa network a message belongs to.
 type PyrinpyiNet uint32
 
-// Constants used to indicate the message pyrin network. They can also be
+// Constants used to indicate the message caspa network. They can also be
 // used to seek to the next message when a stream's state is unknown, but
 // this package does not provide that functionality since it's generally a
 // better idea to simply disconnect clients that are misbehaving over TCP.
 const (
-	// Mainnet represents the main pyrin network.
+	// Mainnet represents the main caspa network.
 	Mainnet PyrinpyiNet = 0x3ddcf71d
 
 	// Testnet represents the test network.
@@ -110,7 +110,7 @@ const (
 	Devnet PyrinpyiNet = 0x732d87e1
 )
 
-// bnStrings is a map of pyrin networks back to their constant names for
+// bnStrings is a map of caspa networks back to their constant names for
 // pretty printing.
 var bnStrings = map[PyrinpyiNet]string{
 	Mainnet: "Mainnet",
