@@ -3,11 +3,11 @@ package libcaswallet
 import (
 	"encoding/hex"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionid"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionid"
+	"github.com/casklas/caspad/domain/consensus/utils/utxo"
 )
 
 // PyrinwalletdUTXOsTolibcaswalletUTXOs converts a  []*pb.UtxosByAddressesEntry to a []*libcaswallet.UTXO

@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgRequestPruningPointAndItsAnticone represents a caspa RequestPruningPointAndItsAnticone message
+// MsgRequestPruningPointAndItsAnticone represents a pyrin RequestPruningPointAndItsAnticone message
 type MsgRequestPruningPointAndItsAnticone struct {
 	baseMessage
 }

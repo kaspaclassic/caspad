@@ -6,14 +6,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/blockheader"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashes"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/domain/consensus/utils/blockheader"
+	"github.com/casklas/caspad/domain/consensus/utils/hashes"
+	"github.com/casklas/caspad/domain/consensus/utils/utxo"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionid"
-	"github.com/kaspaclassic/caspad/util/mstime"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionid"
+	"github.com/casklas/caspad/util/mstime"
 )
 
 // DomainBlockToMsgBlock converts an externalapi.DomainBlock to MsgBlock

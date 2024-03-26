@@ -1,8 +1,8 @@
 package utxodiffstore
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 type utxoDiffStagingShard struct {

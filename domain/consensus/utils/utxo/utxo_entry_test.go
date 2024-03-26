@@ -3,7 +3,7 @@ package utxo
 import (
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 func TestUTXOEntry_Equal(t *testing.T) {

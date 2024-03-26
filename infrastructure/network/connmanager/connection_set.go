@@ -1,7 +1,7 @@
 package connmanager
 
 import (
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
+	"github.com/casklas/caspad/infrastructure/network/netadapter"
 )
 
 type connectionSet map[string]*netadapter.NetConnection

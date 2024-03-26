@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/util/network"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/util/network"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/util"
 )
 
 // These variables are the DAG proof-of-work limit parameters for each default
@@ -278,12 +278,12 @@ var MainnetParams = Params{
 // TestnetParams defines the network parameters for the test Pyrin network.
 var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
-	Name:        "caspa-testnet-10",
+	Name:        "pyrin-testnet-10",
 	Net:         appmessage.Testnet,
 	RPCPort:     "16210",
 	DefaultPort: "16211",
 	DNSSeeds: []string{
-		"seeder1.caspatestnet.network",
+		"seeder1.pyrintestnet.network",
 	},
 
 	// DAG parameters
@@ -348,7 +348,7 @@ var TestnetParams = Params{
 // just turn into another public testnet.
 var SimnetParams = Params{
 	K:           defaultGHOSTDAGK,
-	Name:        "caspa-simnet",
+	Name:        "pyrin-simnet",
 	Net:         appmessage.Simnet,
 	RPCPort:     "16510",
 	DefaultPort: "16511",
@@ -408,7 +408,7 @@ var SimnetParams = Params{
 // DevnetParams defines the network parameters for the development Pyrin network.
 var DevnetParams = Params{
 	K:           defaultGHOSTDAGK,
-	Name:        "caspa-devnet",
+	Name:        "pyrin-devnet",
 	Net:         appmessage.Devnet,
 	RPCPort:     "16610",
 	DefaultPort: "16611",

@@ -7,8 +7,8 @@ package blocklogger
 import (
 	"time"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/util/mstime"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/util/mstime"
 )
 
 // BlockLogger is a type tracking the amount of blocks/headers/transactions to log the time it took to receive them

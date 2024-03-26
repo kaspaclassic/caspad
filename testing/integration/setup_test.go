@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/domain/dagconfig"
 
-	"github.com/kaspaclassic/caspad/infrastructure/db/database/ldb"
+	"github.com/casklas/caspad/infrastructure/db/database/ldb"
 
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/infrastructure/db/database"
 
-	"github.com/kaspaclassic/caspad/app"
-	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/casklas/caspad/app"
+	"github.com/casklas/caspad/infrastructure/config"
 )
 
 type appHarness struct {

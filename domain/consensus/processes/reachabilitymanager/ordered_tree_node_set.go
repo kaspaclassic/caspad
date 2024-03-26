@@ -1,8 +1,8 @@
 package reachabilitymanager
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // orderedTreeNodeSet is an ordered set of model.DomainHash ordered by the respectful intervals.

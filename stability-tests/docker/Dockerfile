@@ -1,14 +1,14 @@
-ARG CASPAD_IMAGE
-ARG CASPADMINER_IMAGE
+ARG PYIPAD_IMAGE
+ARG PYIPADMINER_IMAGE
 
-FROM ${CASPAD_IMAGE} as caspad
-FROM ${CASPADMINER_IMAGE} as casminer
+FROM ${PYIPAD_IMAGE} as caspad
+FROM ${PYIPADMINER_IMAGE} as casminer
 
 FROM golang:1.19-alpine
 
-RUN mkdir -p /go/src/github.com/kaspaclassic/caspad
+RUN mkdir -p /go/src/github.com/casklas/caspad
 
-WORKDIR /go/src/github.com/kaspaclassic/caspad
+WORKDIR /go/src/github.com/casklas/caspad
 
 RUN apk add bash build-base git
 
@@ -23,7 +23,7 @@ COPY --from=caspad /app/ /app/
 COPY --from=casminer /app/ /app/
 ENV PATH="/app:${PATH}"
 
-WORKDIR /go/src/github.com/kaspaclassic/caspad/stability-tests
+WORKDIR /go/src/github.com/casklas/caspad/stability-tests
 
 RUN go install ./...
 

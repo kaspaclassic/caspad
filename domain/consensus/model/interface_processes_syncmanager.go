@@ -1,6 +1,6 @@
 package model
 
-import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+import "github.com/casklas/caspad/domain/consensus/model/externalapi"
 
 // SyncManager exposes functions to support sync between caspad nodes
 type SyncManager interface {

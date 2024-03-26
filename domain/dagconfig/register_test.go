@@ -3,7 +3,7 @@ package dagconfig_test
 import (
 	"testing"
 
-	. "github.com/kaspaclassic/caspad/domain/dagconfig"
+	. "github.com/casklas/caspad/domain/dagconfig"
 )
 
 // Define some of the required parameters for a user-registered

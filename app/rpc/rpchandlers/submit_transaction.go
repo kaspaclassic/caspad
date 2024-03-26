@@ -1,11 +1,11 @@
 package rpchandlers
 
 import (
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/app/rpc/rpccontext"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/rpc/rpccontext"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/miningmanager/mempool"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

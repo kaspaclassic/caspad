@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgIBDBlockLocatorHighestHashNotFound represents a caspa BlockLocatorHighestHashNotFound message
+// MsgIBDBlockLocatorHighestHashNotFound represents a pyrin BlockLocatorHighestHashNotFound message
 type MsgIBDBlockLocatorHighestHashNotFound struct {
 	baseMessage
 }

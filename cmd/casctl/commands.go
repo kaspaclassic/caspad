@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
 var commandTypes = []reflect.Type{

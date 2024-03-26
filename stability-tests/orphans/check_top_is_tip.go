@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/stability-tests/common/rpc"
 	"github.com/pkg/errors"
 )
 

@@ -3,8 +3,8 @@ package serialization
 import (
 	"io"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/util/binaryserializer"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/util/binaryserializer"
 	"github.com/pkg/errors"
 )
 

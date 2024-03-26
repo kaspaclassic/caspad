@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/dagconfig"
 )
 
 func TestCalcDeflationaryPeriodBlockSubsidy(t *testing.T) {

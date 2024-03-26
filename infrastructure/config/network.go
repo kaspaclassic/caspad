@@ -3,13 +3,13 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 	"math/big"
 	"os"
 	"time"
 
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
-	"github.com/kaspaclassic/caspad/util/difficulty"
+	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/util/difficulty"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 )

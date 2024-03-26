@@ -8,14 +8,14 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/util"
 )
 
-// This example demonstrates creating a script which pays to a caspa address.
+// This example demonstrates creating a script which pays to a pyrin address.
 // It also prints the created script hex and uses the DisasmString function to
 // display the disassembled script.
 func ExamplePayToAddrScript() {
@@ -23,7 +23,7 @@ func ExamplePayToAddrScript() {
 	// which is useful to ensure the accuracy of the address and determine
 	// the address type. It is also required for the upcoming call to
 	// PayToAddrScript.
-	addressStr := "caspa:qqj9fg59mptxkr9j0y53j5mwurcmda5mtza9n6v9pm9uj8h0wgk6u9aj94505"
+	addressStr := "pyrin:qqj9fg59mptxkr9j0y53j5mwurcmda5mtza9n6v9pm9uj8h0wgk6u9aj94505"
 	address, err := util.DecodeAddress(addressStr, util.Bech32PrefixPyrin)
 	if err != nil {
 		fmt.Println(err)
@@ -72,5 +72,5 @@ func ExampleExtractScriptPubKeyAddress() {
 
 	// Output:
 	// Script Class: pubkey
-	// Address: caspa:qzy6cf82zzah2xh5jwtz8nx9u4gdj6zzke8gljs0v055ksmnl424uyf26y6h8
+	// Address: pyrin:qzy6cf82zzah2xh5jwtz8nx9u4gdj6zzke8gljs0v055ksmnl424uyf26y6h8
 }

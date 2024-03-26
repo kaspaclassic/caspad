@@ -1,11 +1,11 @@
 package acceptancedatastore
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/database/serialization"
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/lrucache"
-	"github.com/kaspaclassic/caspad/util/staging"
+	"github.com/casklas/caspad/domain/consensus/database/serialization"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/lrucache"
+	"github.com/casklas/caspad/util/staging"
 	"google.golang.org/protobuf/proto"
 )
 

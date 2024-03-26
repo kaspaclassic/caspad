@@ -3,16 +3,16 @@ package standalone
 import (
 	"sync"
 
-	"github.com/kaspaclassic/caspad/app/protocol/common"
-	"github.com/kaspaclassic/caspad/util/mstime"
+	"github.com/casklas/caspad/app/protocol/common"
+	"github.com/casklas/caspad/util/mstime"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/id"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/id"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 
-	"github.com/kaspaclassic/caspad/infrastructure/config"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
+	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 )

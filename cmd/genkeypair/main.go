@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
+	"github.com/casklas/caspad/util"
 )
 
 func main() {

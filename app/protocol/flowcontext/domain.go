@@ -1,7 +1,7 @@
 package flowcontext
 
 import (
-	"github.com/kaspaclassic/caspad/domain"
+	"github.com/casklas/caspad/domain"
 )
 
 // Domain returns the Domain object associated to the flow context.

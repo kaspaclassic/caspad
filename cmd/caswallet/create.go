@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/bip32"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/utils"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/bip32"
+	"github.com/casklas/caspad/cmd/caswallet/utils"
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/keys"
+	"github.com/casklas/caspad/cmd/caswallet/keys"
 )
 
 func create(conf *createConfig) error {

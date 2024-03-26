@@ -1,6 +1,6 @@
 package rpcclient
 
-import "github.com/kaspaclassic/caspad/app/appmessage"
+import "github.com/casklas/caspad/app/appmessage"
 
 // ResolveFinalityConflict sends an RPC request respective to the function's name and returns the RPC server's response
 func (c *RPCClient) ResolveFinalityConflict(finalityBlockHash string) (*appmessage.ResolveFinalityConflictResponseMessage, error) {

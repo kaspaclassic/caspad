@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgRequestNextPruningPointAndItsAnticoneBlocks implements the Message interface and represents a caspa
+// MsgRequestNextPruningPointAndItsAnticoneBlocks implements the Message interface and represents a pyrin
 // RequestNextPruningPointAndItsAnticoneBlocks message. It is used to notify the IBD syncer peer to send
 // more blocks from the pruning anticone.
 //
@@ -15,7 +15,7 @@ func (msg *MsgRequestNextPruningPointAndItsAnticoneBlocks) Command() MessageComm
 	return CmdRequestNextPruningPointAndItsAnticoneBlocks
 }
 
-// NewMsgRequestNextPruningPointAndItsAnticoneBlocks returns a new caspa RequestNextPruningPointAndItsAnticoneBlocks message that conforms to the
+// NewMsgRequestNextPruningPointAndItsAnticoneBlocks returns a new pyrin RequestNextPruningPointAndItsAnticoneBlocks message that conforms to the
 // Message interface.
 func NewMsgRequestNextPruningPointAndItsAnticoneBlocks() *MsgRequestNextPruningPointAndItsAnticoneBlocks {
 	return &MsgRequestNextPruningPointAndItsAnticoneBlocks{}

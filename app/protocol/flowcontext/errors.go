@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
 )
 
 var (

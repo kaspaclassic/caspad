@@ -7,9 +7,9 @@ package winservice
 import (
 	"fmt"
 
-	"github.com/kaspaclassic/caspad/infrastructure/config"
-	"github.com/kaspaclassic/caspad/infrastructure/os/signal"
-	"github.com/kaspaclassic/caspad/version"
+	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/os/signal"
+	"github.com/casklas/caspad/version"
 	"github.com/btcsuite/winsvc/eventlog"
 	"github.com/btcsuite/winsvc/svc"
 )

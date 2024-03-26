@@ -1,7 +1,7 @@
 package model
 
 import (
-	consensusexternalapi "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	consensusexternalapi "github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // BlockTemplateBuilder builds block templates for miners to consume

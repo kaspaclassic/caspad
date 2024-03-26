@@ -1,10 +1,10 @@
 package blockprocessor
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/infrastructure/db/database"
 )
 
 func (bp *blockProcessor) validateAndInsertBlockWithTrustedData(stagingArea *model.StagingArea,

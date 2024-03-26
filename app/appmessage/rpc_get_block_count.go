@@ -1,6 +1,6 @@
 package appmessage
 
-import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+import "github.com/casklas/caspad/domain/consensus/model/externalapi"
 
 // GetBlockCountRequestMessage is an appmessage corresponding to
 // its respective RPC message

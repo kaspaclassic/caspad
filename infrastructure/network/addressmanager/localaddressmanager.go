@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

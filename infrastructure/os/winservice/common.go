@@ -1,6 +1,6 @@
 package winservice
 
-import "github.com/kaspaclassic/caspad/infrastructure/config"
+import "github.com/casklas/caspad/infrastructure/config"
 
 // ServiceDescription contains information about a service, needed to administer it
 type ServiceDescription struct {

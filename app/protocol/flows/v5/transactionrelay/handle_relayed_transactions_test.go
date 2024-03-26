@@ -5,22 +5,22 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/app/protocol/flowcontext"
-	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/transactionrelay"
+	"github.com/casklas/caspad/app/protocol/flowcontext"
+	"github.com/casklas/caspad/app/protocol/flows/v5/transactionrelay"
 
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
-	"github.com/kaspaclassic/caspad/domain"
-	"github.com/kaspaclassic/caspad/domain/consensus"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
-	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool"
-	"github.com/kaspaclassic/caspad/infrastructure/logger"
-	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/domain"
+	"github.com/casklas/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/testutils"
+	"github.com/casklas/caspad/domain/miningmanager/mempool"
+	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/casklas/caspad/util/panics"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/infrastructure/config"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/network/netadapter"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 )
 
 type mocTransactionsRelayContext struct {

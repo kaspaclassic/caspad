@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"unicode"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
 // protobuf generates the command types with two types:

@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/casklas/caspad/infrastructure/logger"
 )
 
 // LogWriter writes to the given log with the given log level and prefix

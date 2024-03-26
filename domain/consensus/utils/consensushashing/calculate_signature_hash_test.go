@@ -6,15 +6,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/util"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // shortened versions of SigHash types to fit in single line of test case
@@ -345,7 +345,7 @@ func generateTxs() (nativeTx, subnetworkTx *externalapi.DomainTransaction, err e
 	genesisCoinbase := dagconfig.SimnetParams.GenesisBlock.Transactions[0]
 	genesisCoinbaseTransactionID := consensushashing.TransactionID(genesisCoinbase)
 
-	address1Str := "caspasim:qzpj2cfa9m40w9m2cmr8pvfuqpp32mzzwsuw6ukhfduqpp32mzzws59e8fapc"
+	address1Str := "pyrinsim:qzpj2cfa9m40w9m2cmr8pvfuqpp32mzzwsuw6ukhfduqpp32mzzws59e8fapc"
 	address1, err := util.DecodeAddress(address1Str, util.Bech32PrefixPyrinSim)
 	if err != nil {
 		return nil, nil, fmt.Errorf("error decoding address1: %+v", err)
@@ -355,7 +355,7 @@ func generateTxs() (nativeTx, subnetworkTx *externalapi.DomainTransaction, err e
 		return nil, nil, fmt.Errorf("error generating script: %+v", err)
 	}
 
-	address2Str := "caspasim:qr7w7nqsdnc3zddm6u8s9fex4ysk95hm3v30q353ymuqpp32mzzws59e8fapc"
+	address2Str := "pyrinsim:qr7w7nqsdnc3zddm6u8s9fex4ysk95hm3v30q353ymuqpp32mzzws59e8fapc"
 	address2, err := util.DecodeAddress(address2Str, util.Bech32PrefixPyrinSim)
 	if err != nil {
 		return nil, nil, fmt.Errorf("error decoding address2: %+v", err)
@@ -497,7 +497,7 @@ func generateInputs(size int, sourceScript *externalapi.ScriptPublicKey) []*exte
 }
 
 func getSourceScript(b *testing.B) *externalapi.ScriptPublicKey {
-	sourceAddressStr := "caspasim:qz6f9z6l3x4v3lf9mgf0t934th4nx5kgzu663x9yjh"
+	sourceAddressStr := "pyrinsim:qz6f9z6l3x4v3lf9mgf0t934th4nx5kgzu663x9yjh"
 
 	sourceAddress, err := util.DecodeAddress(sourceAddressStr, util.Bech32PrefixPyrinSim)
 	if err != nil {

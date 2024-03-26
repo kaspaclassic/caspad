@@ -1,9 +1,9 @@
 package rejects
 
 import (
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 )
 
 // HandleRejectsContext is the interface for the context needed for the HandleRejects flow.

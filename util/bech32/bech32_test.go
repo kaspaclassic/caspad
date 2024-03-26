@@ -7,7 +7,7 @@ package bech32_test
 import (
 	"testing"
 
-	"github.com/kaspaclassic/caspad/util/bech32"
+	"github.com/casklas/caspad/util/bech32"
 )
 
 var checkEncodingStringTests = []struct {

@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/kaspaclassic/caspad/version"
+	"github.com/casklas/caspad/version"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/server/grpcserver/protowire"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient/grpcclient"
+	"github.com/casklas/caspad/infrastructure/network/rpcclient/grpcclient"
 )
 
 func main() {

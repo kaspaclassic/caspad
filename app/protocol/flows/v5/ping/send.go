@@ -3,15 +3,15 @@ package ping
 import (
 	"time"
 
-	"github.com/kaspaclassic/caspad/app/protocol/common"
-	"github.com/kaspaclassic/caspad/app/protocol/flowcontext"
+	"github.com/casklas/caspad/app/protocol/common"
+	"github.com/casklas/caspad/app/protocol/flowcontext"
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
-	"github.com/kaspaclassic/caspad/util/random"
+	"github.com/casklas/caspad/app/appmessage"
+	peerpkg "github.com/casklas/caspad/app/protocol/peer"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/util/random"
 )
 
 // SendPingsContext is the interface for the context needed for the SendPings flow.

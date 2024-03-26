@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/util"
 
-	"github.com/kaspaclassic/caspad/version"
+	"github.com/casklas/caspad/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/kaspaclassic/caspad/infrastructure/os/signal"
-	"github.com/kaspaclassic/caspad/util/panics"
-	"github.com/kaspaclassic/caspad/util/profiling"
+	"github.com/casklas/caspad/infrastructure/os/signal"
+	"github.com/casklas/caspad/util/panics"
+	"github.com/casklas/caspad/util/profiling"
 )
 
 func main() {

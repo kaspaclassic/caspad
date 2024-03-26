@@ -5,14 +5,14 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/testapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/blockheader"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/testapi"
+	"github.com/casklas/caspad/domain/consensus/utils/blockheader"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

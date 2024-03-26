@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
+	"github.com/casklas/caspad/stability-tests/common/rpc"
 
 	"github.com/pkg/errors"
 )

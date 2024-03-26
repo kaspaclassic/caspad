@@ -1,6 +1,6 @@
 package model
 
-import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+import "github.com/casklas/caspad/domain/consensus/model/externalapi"
 
 // BlockStatusStore represents a store of BlockStatuses
 type BlockStatusStore interface {

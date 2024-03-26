@@ -39,7 +39,7 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/kaspaclassic/caspad/util/mstime"
+	"github.com/casklas/caspad/util/mstime"
 )
 
 // Logger is a subsystem logger for a Backend.

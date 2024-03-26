@@ -1,7 +1,7 @@
 package transactionid
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // FromString creates a new DomainTransactionID from the given string

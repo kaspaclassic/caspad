@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/infrastructure/db/database"
 )
 
 func TestDatabasePut(t *testing.T) {

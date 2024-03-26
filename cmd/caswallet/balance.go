@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/client"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/utils"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/client"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
+	"github.com/casklas/caspad/cmd/caswallet/utils"
 )
 
 func balance(conf *balanceConfig) error {

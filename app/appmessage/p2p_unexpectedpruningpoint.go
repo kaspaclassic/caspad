@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgUnexpectedPruningPoint represents a caspa UnexpectedPruningPoint message
+// MsgUnexpectedPruningPoint represents a pyrin UnexpectedPruningPoint message
 type MsgUnexpectedPruningPoint struct {
 	baseMessage
 }
@@ -10,7 +10,7 @@ func (msg *MsgUnexpectedPruningPoint) Command() MessageCommand {
 	return CmdUnexpectedPruningPoint
 }
 
-// NewMsgUnexpectedPruningPoint returns a new caspa UnexpectedPruningPoint message
+// NewMsgUnexpectedPruningPoint returns a new pyrin UnexpectedPruningPoint message
 func NewMsgUnexpectedPruningPoint() *MsgUnexpectedPruningPoint {
 	return &MsgUnexpectedPruningPoint{}
 }

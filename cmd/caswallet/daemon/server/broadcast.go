@@ -2,12 +2,12 @@ package server
 
 import (
 	"context"
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/serialization"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/serialization"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 	"time"
 )

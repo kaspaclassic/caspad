@@ -5,7 +5,7 @@
 package util
 
 import (
-	"github.com/kaspaclassic/caspad/util/bech32"
+	"github.com/casklas/caspad/util/bech32"
 	"github.com/pkg/errors"
 )
 
@@ -54,8 +54,8 @@ const (
 var stringsToBech32Prefixes = map[string]Bech32Prefix{
 	"cas":     Bech32PrefixPyrin,
 	"caspadev":  Bech32Prefixcaspadev,
-	"caspatest": Bech32PrefixPyrinTest,
-	"caspasim":  Bech32PrefixPyrinSim,
+	"pyrintest": Bech32PrefixPyrinTest,
+	"pyrinsim":  Bech32PrefixPyrinSim,
 }
 
 // ParsePrefix attempts to parse a Bech32 address prefix.
@@ -80,7 +80,7 @@ func (prefix Bech32Prefix) String() string {
 }
 
 // encodeAddress returns a human-readable payment address given a network prefix
-// and a payload which encodes the caspa network and address type. It is used
+// and a payload which encodes the pyrin network and address type. It is used
 // in both pay-to-pubkey (P2PK) and pay-to-script-hash (P2SH) address
 // encoding.
 func encodeAddress(prefix Bech32Prefix, payload []byte, version byte) string {
@@ -116,7 +116,7 @@ type Address interface {
 	Prefix() Bech32Prefix
 
 	// IsForPrefix returns whether or not the address is associated with the
-	// passed caspa network.
+	// passed pyrin network.
 	IsForPrefix(prefix Bech32Prefix) bool
 }
 
@@ -197,7 +197,7 @@ func (a *AddressPublicKey) ScriptAddress() []byte {
 }
 
 // IsForPrefix returns whether or not the pay-to-pubkey address is associated
-// with the passed caspa network.
+// with the passed pyrin network.
 func (a *AddressPublicKey) IsForPrefix(prefix Bech32Prefix) bool {
 	return a.prefix == prefix
 }
@@ -259,7 +259,7 @@ func (a *AddressPublicKeyECDSA) ScriptAddress() []byte {
 }
 
 // IsForPrefix returns whether or not the pay-to-pubkey address is associated
-// with the passed caspa network.
+// with the passed pyrin network.
 func (a *AddressPublicKeyECDSA) IsForPrefix(prefix Bech32Prefix) bool {
 	return a.prefix == prefix
 }
@@ -324,7 +324,7 @@ func (a *AddressScriptHash) ScriptAddress() []byte {
 }
 
 // IsForPrefix returns whether or not the pay-to-script-hash address is associated
-// with the passed caspa network.
+// with the passed pyrin network.
 func (a *AddressScriptHash) IsForPrefix(prefix Bech32Prefix) bool {
 	return a.prefix == prefix
 }

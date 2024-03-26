@@ -3,10 +3,10 @@ package pastmediantimemanager
 import (
 	"sort"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/sorters"
+	"github.com/casklas/caspad/domain/consensus/utils/sorters"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

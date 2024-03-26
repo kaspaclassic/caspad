@@ -1,9 +1,9 @@
 package protowire
 
 import (
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/id"
-	"github.com/kaspaclassic/caspad/util/mstime"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/id"
+	"github.com/casklas/caspad/util/mstime"
 	"github.com/pkg/errors"
 )
 
@@ -25,7 +25,7 @@ func (x *VersionMessage) toAppMessage() (appmessage.Message, error) {
 	}
 
 	subnetworkID, err := x.SubnetworkId.toDomain()
-	//  Full caspa nodes set SubnetworkId==nil
+	//  Full pyrin nodes set SubnetworkId==nil
 	if err != nil && !errors.Is(err, errorNil) {
 		return nil, err
 	}

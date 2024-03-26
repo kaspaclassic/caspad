@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/kaspaclassic/caspad/pb";
+option go_package = "github.com/casklas/caspad/pb";
 
 service PeerService {
   rpc GetPeersList(GetPeersListRequest) returns (GetPeersListResponse) {}

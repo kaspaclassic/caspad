@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/serialization"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/serialization"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
 	"github.com/pkg/errors"
 )
 

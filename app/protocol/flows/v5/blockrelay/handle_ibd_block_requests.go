@@ -1,10 +1,10 @@
 package blockrelay
 
 import (
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
-	"github.com/kaspaclassic/caspad/domain"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/domain"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

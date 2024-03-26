@@ -1,8 +1,8 @@
 package serialization
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/utxo"
 )
 
 func utxoCollectionToDBUTXOCollection(utxoCollection externalapi.UTXOCollection) ([]*DbUtxoCollectionItem, error) {

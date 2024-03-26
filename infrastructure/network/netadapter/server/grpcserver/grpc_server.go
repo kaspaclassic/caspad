@@ -3,8 +3,8 @@ package grpcserver
 import (
 	"context"
 	"fmt"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/server"
-	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/server"
+	"github.com/casklas/caspad/util/panics"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"

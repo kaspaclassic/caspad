@@ -1310,7 +1310,7 @@ type GetBlockTemplateRequestMessage struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	// Which caspa address should the coinbase block reward transaction pay into
+	// Which pyrin address should the coinbase block reward transaction pay into
 	PayAddress string `protobuf:"bytes,1,opt,name=payAddress,proto3" json:"payAddress,omitempty"`
 	ExtraData  string `protobuf:"bytes,2,opt,name=extraData,proto3" json:"extraData,omitempty"`
 }

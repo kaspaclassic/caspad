@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
-	"github.com/kaspaclassic/caspad/infrastructure/db/database/ldb"
+	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/infrastructure/db/database/ldb"
 )
 
 type databasePrepareFunc func(t *testing.T, testName string) (db database.Database, name string, teardownFunc func())

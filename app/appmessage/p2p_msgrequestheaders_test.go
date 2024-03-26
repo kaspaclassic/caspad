@@ -7,7 +7,7 @@ package appmessage
 import (
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // TestRequstIBDBlocks tests the MsgRequestIBDBlocks API.

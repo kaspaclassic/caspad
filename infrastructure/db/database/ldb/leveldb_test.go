@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/infrastructure/db/database"
 )
 
 func prepareDatabaseForTest(t *testing.T, testName string) (ldb *LevelDB, teardownFunc func()) {

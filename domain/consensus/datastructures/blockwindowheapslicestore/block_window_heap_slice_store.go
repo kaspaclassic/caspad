@@ -1,11 +1,11 @@
 package blockwindowheapslicestore
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/lrucachehashandwindowsizetoblockghostdagdatahashpairs"
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
-	"github.com/kaspaclassic/caspad/util/staging"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/lrucachehashandwindowsizetoblockghostdagdatahashpairs"
+	"github.com/casklas/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/util/staging"
 	"github.com/pkg/errors"
 )
 

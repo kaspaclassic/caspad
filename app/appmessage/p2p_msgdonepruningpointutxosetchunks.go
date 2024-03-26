@@ -1,6 +1,6 @@
 package appmessage
 
-// MsgDonePruningPointUTXOSetChunks represents a caspa DonePruningPointUTXOSetChunks message
+// MsgDonePruningPointUTXOSetChunks represents a pyrin DonePruningPointUTXOSetChunks message
 type MsgDonePruningPointUTXOSetChunks struct {
 	baseMessage
 }

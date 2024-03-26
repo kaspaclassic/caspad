@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspaclassic/caspad/version"
+	"github.com/casklas/caspad/version"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/cmd/casminer/templatemanager"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/pow"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/cmd/casminer/templatemanager"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/pow"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/util"
 	"github.com/pkg/errors"
 )
 

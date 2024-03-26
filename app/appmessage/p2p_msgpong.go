@@ -4,9 +4,9 @@
 
 package appmessage
 
-// MsgPong implements the Message interface and represents a caspa pong
+// MsgPong implements the Message interface and represents a pyrin pong
 // message which is used primarily to confirm that a connection is still valid
-// in response to a caspa ping message (MsgPing).
+// in response to a pyrin ping message (MsgPing).
 //
 // This message was not added until protocol versions AFTER BIP0031Version.
 type MsgPong struct {
@@ -22,7 +22,7 @@ func (msg *MsgPong) Command() MessageCommand {
 	return CmdPong
 }
 
-// NewMsgPong returns a new caspa pong message that conforms to the Message
+// NewMsgPong returns a new pyrin pong message that conforms to the Message
 // interface. See MsgPong for details.
 func NewMsgPong(nonce uint64) *MsgPong {
 	return &MsgPong{

@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus"
 	"os/exec"
 	"strings"
 	"sync/atomic"
 	"syscall"
 	"time"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/stability-tests/common"
-	"github.com/kaspaclassic/caspad/stability-tests/common/mine"
-	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
-	"github.com/kaspaclassic/caspad/util"
-	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/stability-tests/common"
+	"github.com/casklas/caspad/stability-tests/common/mine"
+	"github.com/casklas/caspad/stability-tests/common/rpc"
+	"github.com/casklas/caspad/util"
+	"github.com/casklas/caspad/util/panics"
 	"github.com/pkg/errors"
 )
 

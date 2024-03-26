@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/appmessage"
 
-	"github.com/kaspaclassic/caspad/infrastructure/config"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 )
 
 // routerInitializerForTest returns new RouterInitializer which simply sets

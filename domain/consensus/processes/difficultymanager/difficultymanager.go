@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/kaspaclassic/caspad/infrastructure/logger"
-	"github.com/kaspaclassic/caspad/util/math"
+	"github.com/casklas/caspad/infrastructure/logger"
+	"github.com/casklas/caspad/util/math"
 
-	"github.com/kaspaclassic/caspad/util/difficulty"
+	"github.com/casklas/caspad/util/difficulty"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // DifficultyManager provides a method to resolve the

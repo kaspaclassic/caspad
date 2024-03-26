@@ -1,4 +1,4 @@
-module github.com/kaspaclassic/caspad
+module github.com/casklas/caspad
 
 go 1.18
 

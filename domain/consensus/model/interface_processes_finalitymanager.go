@@ -1,6 +1,6 @@
 package model
 
-import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+import "github.com/casklas/caspad/domain/consensus/model/externalapi"
 
 // FinalityManager provides method to validate that a block does not violate finality
 type FinalityManager interface {

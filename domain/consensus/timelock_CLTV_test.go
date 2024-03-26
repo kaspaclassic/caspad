@@ -4,15 +4,15 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus"
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/ruleerrors"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/testutils"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
 )
 
 // TestCheckLockTimeVerifyConditionedByDAAScore verifies that an output locked by the CLTV script is spendable only after

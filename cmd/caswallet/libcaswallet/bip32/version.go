@@ -23,7 +23,7 @@ var BitcoinMainnetPublic = [4]byte{
 }
 
 // PyrinMainnetPrivate is the version that is used for
-// caspa mainnet bip32 private extended keys.
+// pyrin mainnet bip32 private extended keys.
 // Ecnodes to xprv in base58.
 var PyrinMainnetPrivate = [4]byte{
 	0x03,
@@ -33,7 +33,7 @@ var PyrinMainnetPrivate = [4]byte{
 }
 
 // PyrinMainnetPublic is the version that is used for
-// caspa mainnet bip32 public extended keys.
+// pyrin mainnet bip32 public extended keys.
 // Ecnodes to kpub in base58.
 var PyrinMainnetPublic = [4]byte{
 	0x03,
@@ -43,7 +43,7 @@ var PyrinMainnetPublic = [4]byte{
 }
 
 // PyrinTestnetPrivate is the version that is used for
-// caspa testnet bip32 public extended keys.
+// pyrin testnet bip32 public extended keys.
 // Ecnodes to ktrv in base58.
 var PyrinTestnetPrivate = [4]byte{
 	0x03,
@@ -53,7 +53,7 @@ var PyrinTestnetPrivate = [4]byte{
 }
 
 // PyrinTestnetPublic is the version that is used for
-// caspa testnet bip32 public extended keys.
+// pyrin testnet bip32 public extended keys.
 // Ecnodes to ktub in base58.
 var PyrinTestnetPublic = [4]byte{
 	0x03,
@@ -63,7 +63,7 @@ var PyrinTestnetPublic = [4]byte{
 }
 
 // PyipadevnetPrivate is the version that is used for
-// caspa devnet bip32 public extended keys.
+// pyrin devnet bip32 public extended keys.
 // Ecnodes to kdrv in base58.
 var PyipadevnetPrivate = [4]byte{
 	0x03,
@@ -73,7 +73,7 @@ var PyipadevnetPrivate = [4]byte{
 }
 
 // PyipadevnetPublic is the version that is used for
-// caspa devnet bip32 public extended keys.
+// pyrin devnet bip32 public extended keys.
 // Ecnodes to xdub in base58.
 var PyipadevnetPublic = [4]byte{
 	0x03,
@@ -83,7 +83,7 @@ var PyipadevnetPublic = [4]byte{
 }
 
 // PyrinSimnetPrivate is the version that is used for
-// caspa simnet bip32 public extended keys.
+// pyrin simnet bip32 public extended keys.
 // Ecnodes to ksrv in base58.
 var PyrinSimnetPrivate = [4]byte{
 	0x03,
@@ -93,7 +93,7 @@ var PyrinSimnetPrivate = [4]byte{
 }
 
 // PyrinSimnetPublic is the version that is used for
-// caspa simnet bip32 public extended keys.
+// pyrin simnet bip32 public extended keys.
 // Ecnodes to xsub in base58.
 var PyrinSimnetPublic = [4]byte{
 	0x03,

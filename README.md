@@ -2,7 +2,7 @@ Caspad
 ========
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kaspaclassic/caspad/)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/casklas/caspad/)
 
 Caspad is the reference full node Caspa Classic implementation written in Go (golang).
 
@@ -31,7 +31,7 @@ $ go version
 - Run the following commands to obtain and install caspad including all dependencies:
 
 ```bash
-$ git clone https://github.com/kaspaclassic/caspad/
+$ git clone https://github.com/casklas/caspad/
 $ cd caspad
 $ go install . ./cmd/...
 ```
@@ -53,7 +53,7 @@ $ nano ~/.bashrc
 
 ## Getting Started
 
-Nautiliad has several configuration options available to tweak how it runs, but all
+Caspad has several configuration options available to tweak how it runs, but all
 of the basic operations work with zero configuration.
 
 ## Creating a wallet
@@ -101,14 +101,14 @@ Join our discord server using the following link: https://discord.com/invite/kas
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/kaspaclassic/caspad/issues)
+The [integrated github issue tracker](https://github.com/casklas/caspad/issues)
 is used for this project.
 
 
 ## Documentation
 
-The [documentation](https://github.com/kaspaclassic/docs) is a work-in-progress
+The [documentation](https://github.com/casklas/docs) is a work-in-progress
 
 ## License
 
-Nautiliad is licensed under the copyfree [ISC License](https://choosealicense.com/licenses/isc/).
+Caspad is licensed under the copyfree [ISC License](https://choosealicense.com/licenses/isc/).

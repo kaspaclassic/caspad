@@ -1,6 +1,6 @@
 package model
 
-import "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+import "github.com/casklas/caspad/domain/consensus/model/externalapi"
 
 // DAABlocksStore represents a store of ???
 type DAABlocksStore interface {

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/mining"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/domain/consensus/utils/mining"
+	"github.com/casklas/caspad/util"
 	"math/rand"
 	"os"
 	"os/exec"
@@ -15,10 +15,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kaspaclassic/caspad/stability-tests/common"
-	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
-	"github.com/kaspaclassic/caspad/util/panics"
-	"github.com/kaspaclassic/caspad/util/profiling"
+	"github.com/casklas/caspad/stability-tests/common"
+	"github.com/casklas/caspad/stability-tests/common/rpc"
+	"github.com/casklas/caspad/util/panics"
+	"github.com/casklas/caspad/util/profiling"
 	"github.com/pkg/errors"
 )
 
@@ -226,7 +226,7 @@ func mineLoopUntilHavingOnlyOneTipInDAG(rpcClient *rpc.Client, miningAddress uti
 	}
 	numOfBlocksBeforeMining := dagInfo.BlockCount
 
-	caspaMinerCmd, err := common.StartCmd("MINER",
+	pyrinMinerCmd, err := common.StartCmd("MINER",
 		"casminer",
 		common.NetworkCliArgumentFromNetParams(activeConfig().NetParams()),
 		"-s", rpcAddress,
@@ -240,8 +240,8 @@ func mineLoopUntilHavingOnlyOneTipInDAG(rpcClient *rpc.Client, miningAddress uti
 	startMiningTime := time.Now()
 	shutdown := uint64(0)
 
-	spawn("caspa-miner-Cmd.Wait", func() {
-		err := caspaMinerCmd.Wait()
+	spawn("pyrin-miner-Cmd.Wait", func() {
+		err := pyrinMinerCmd.Wait()
 		if err != nil {
 			if atomic.LoadUint64(&shutdown) == 0 {
 				panics.Exit(log, fmt.Sprintf("minerCmd closed unexpectedly: %s.", err))
@@ -283,7 +283,7 @@ func mineLoopUntilHavingOnlyOneTipInDAG(rpcClient *rpc.Client, miningAddress uti
 	numOfAddedBlocks := dagInfo.BlockCount - numOfBlocksBeforeMining
 	log.Infof("Added %d blocks to reach this.", numOfAddedBlocks)
 	atomic.StoreUint64(&shutdown, 1)
-	killWithSigterm(caspaMinerCmd, "caspaMinerCmd")
+	killWithSigterm(pyrinMinerCmd, "pyrinMinerCmd")
 	return nil
 }
 

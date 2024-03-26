@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/infrastructure/db/database"
 )
 
 func dbBucketToDatabaseBucket(bucket model.DBBucket) *database.Bucket {

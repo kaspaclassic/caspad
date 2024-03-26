@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/config"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 )

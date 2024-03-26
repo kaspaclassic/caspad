@@ -6,22 +6,22 @@ import (
 	"testing"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	utxopkg "github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
-	"github.com/kaspaclassic/caspad/infrastructure/network/rpcclient"
-	"github.com/kaspaclassic/caspad/stability-tests/common/mine"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	utxopkg "github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/infrastructure/network/rpcclient"
+	"github.com/casklas/caspad/stability-tests/common/mine"
+	"github.com/casklas/caspad/util"
 )
 
 const (
-	payAddress                       = "caspasim:qzuax2jhawd354e54thhpd9m9wg03pdzwjlpr4vtq3k7xrpumhhtwa2hkr3ep"
+	payAddress                       = "pyrinsim:qzuax2jhawd354e54thhpd9m9wg03pdzwjlpr4vtq3k7xrpumhhtwa2hkr3ep"
 	payAddressPrivateKey             = "05d8f681e954a550395ee2297fc1a14f6e801f554c0b9d48cd7165a7ea72ff77"
 	fundingCoinbaseTransactionAmount = 1000
 	outputsPerTransaction            = 3

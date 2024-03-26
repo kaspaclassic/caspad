@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model"
 )
 
 // RenderDAGToDot is a helper function for debugging tests.

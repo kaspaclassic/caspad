@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/config"
 
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/util"
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/version"
+	"github.com/casklas/caspad/version"
 	"github.com/jessevdk/go-flags"
 )
 

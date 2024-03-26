@@ -1,7 +1,7 @@
 package protocolerrors
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
+	"github.com/casklas/caspad/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
 )
 

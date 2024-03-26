@@ -1,19 +1,19 @@
 package blockrelay
 
 import (
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/app/protocol/common"
-	"github.com/kaspaclassic/caspad/app/protocol/flowcontext"
-	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
-	"github.com/kaspaclassic/caspad/domain"
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashset"
-	"github.com/kaspaclassic/caspad/infrastructure/config"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/protocol/common"
+	"github.com/casklas/caspad/app/protocol/flowcontext"
+	peerpkg "github.com/casklas/caspad/app/protocol/peer"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/domain"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/ruleerrors"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/hashset"
+	"github.com/casklas/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

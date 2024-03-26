@@ -3,8 +3,8 @@ package protowire
 import (
 	"math/big"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

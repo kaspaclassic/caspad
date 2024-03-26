@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/kaspaclassic/caspad/util/bech32"
+	"github.com/casklas/caspad/util/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

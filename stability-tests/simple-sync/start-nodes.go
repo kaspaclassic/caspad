@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspaclassic/caspad/stability-tests/common"
-	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/casklas/caspad/stability-tests/common"
+	"github.com/casklas/caspad/util/panics"
 	"github.com/pkg/errors"
 )
 

@@ -3,12 +3,12 @@ package consensushashing
 import (
 	"io"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/serialization"
+	"github.com/casklas/caspad/domain/consensus/utils/serialization"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/hashes"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspaclassic/caspad/util/binaryserializer"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/hashes"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/util/binaryserializer"
 	"github.com/pkg/errors"
 )
 
@@ -129,7 +129,7 @@ func serializeTransaction(w io.Writer, tx *externalapi.DomainTransaction, encodi
 	return nil
 }
 
-// writeTransactionInput encodes ti to the caspa protocol encoding for a transaction
+// writeTransactionInput encodes ti to the pyrin protocol encoding for a transaction
 // input to w.
 func writeTransactionInput(w io.Writer, ti *externalapi.DomainTransactionInput, encodingFlags txEncoding) error {
 	err := writeOutpoint(w, &ti.PreviousOutpoint)

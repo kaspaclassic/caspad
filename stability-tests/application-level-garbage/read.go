@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/stability-tests/common"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/stability-tests/common"
 	"github.com/pkg/errors"
 )
 

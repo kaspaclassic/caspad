@@ -4,18 +4,18 @@ import (
 	"math"
 	"sort"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/processes/coinbasemanager"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/merkle"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspaclassic/caspad/domain/consensusreference"
-	"github.com/kaspaclassic/caspad/util/mstime"
+	"github.com/casklas/caspad/domain/consensus/processes/coinbasemanager"
+	"github.com/casklas/caspad/domain/consensus/utils/merkle"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/domain/consensusreference"
+	"github.com/casklas/caspad/util/mstime"
 
-	"github.com/kaspaclassic/caspad/util/difficulty"
+	"github.com/casklas/caspad/util/difficulty"
 
-	consensusexternalapi "github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
-	miningmanagerapi "github.com/kaspaclassic/caspad/domain/miningmanager/model"
+	consensusexternalapi "github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/ruleerrors"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
+	miningmanagerapi "github.com/casklas/caspad/domain/miningmanager/model"
 	"github.com/pkg/errors"
 )
 
@@ -152,7 +152,7 @@ func (btb *blockTemplateBuilder) BuildBlockTemplate(
 		if err != nil {
 			// mempool.RemoveTransactions might return errors in situations that are perfectly fine in this context.
 			// TODO: Once the mempool invariants are clear, this should be converted back `return nil, err`:
-			// https://github.com/kaspaclassic/caspad/issues/1553
+			// https://github.com/casklas/caspad/issues/1553
 			log.Criticalf("Error from mempool.RemoveTransactions: %+v", err)
 			log.Criticalf("Error from mempool.RemoveInvalidTransactions: %+v", err)
 		}

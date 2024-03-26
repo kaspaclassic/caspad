@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/bip32/base58"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/bip32/base58"
 	"github.com/pkg/errors"
 )
 

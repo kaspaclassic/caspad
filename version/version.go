@@ -10,12 +10,12 @@ const validCharacters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrs
 
 const (
 	appMajor uint = 0
-	appMinor uint = 0
-	appPatch uint = 1
+	appMinor uint = 13
+	appPatch uint = 4
 )
 
 // appBuild is defined as a variable so it can be overridden during the build
-// process with '-ldflags "-X github.com/kaspaclassic/caspad/version.appBuild=foo"' if needed.
+// process with '-ldflags "-X github.com/casklas/caspad/version.appBuild=foo"' if needed.
 // It MUST only contain characters from validCharacters.
 var appBuild string
 

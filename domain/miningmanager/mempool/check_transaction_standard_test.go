@@ -9,17 +9,17 @@ import (
 	"math"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensusreference"
+	"github.com/casklas/caspad/domain/consensusreference"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
+	"github.com/casklas/caspad/domain/consensus/utils/testutils"
 
-	"github.com/kaspaclassic/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/util"
 	"github.com/pkg/errors"
 )
 
@@ -215,7 +215,7 @@ func TestCheckTransactionStandardInIsolation(t *testing.T) {
 		t.Fatalf("PayToAddrScript: unexpected error: %v", err)
 	}
 	dummyTxOut := externalapi.DomainTransactionOutput{
-		Value:           100000000, // 1 CAS
+		Value:           100000000, // 1 PYI
 		ScriptPublicKey: dummyScriptPublicKey,
 	}
 

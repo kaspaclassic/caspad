@@ -4,9 +4,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/app/rpc/rpccontext"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/rpc/rpccontext"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 )
 
 // HandleGetPeerAddresses handles the respectively named RPC command

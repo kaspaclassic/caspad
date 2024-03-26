@@ -7,12 +7,12 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/util"
 )
 
 // ScriptClass is an enumeration for the list of standard types of script.

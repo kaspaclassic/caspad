@@ -3,9 +3,9 @@ package serialization
 import (
 	"math"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/serialization/protoserialization"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/serialization/protoserialization"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 )

@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensusreference"
-	miningmanagermodel "github.com/kaspaclassic/caspad/domain/miningmanager/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensusreference"
+	miningmanagermodel "github.com/casklas/caspad/domain/miningmanager/model"
 )
 
 // MiningManager creates block templates for mining as well as maintaining

@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/stability-tests/common"
-	"github.com/kaspaclassic/caspad/stability-tests/common/rpc"
-	"github.com/kaspaclassic/caspad/util/profiling"
+	"github.com/casklas/caspad/stability-tests/common"
+	"github.com/casklas/caspad/stability-tests/common/rpc"
+	"github.com/casklas/caspad/util/profiling"
 )
 
 var timeout = 30 * time.Second

@@ -3,8 +3,8 @@ package common
 import (
 	"time"
 
-	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
-	routerpkg "github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/casklas/caspad/app/protocol/peer"
+	routerpkg "github.com/casklas/caspad/infrastructure/network/netadapter/router"
 
 	"github.com/pkg/errors"
 )

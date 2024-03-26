@@ -3,10 +3,10 @@ package utils
 import (
 	"fmt"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
 )
 
-// FormatKas takes the amount of leors as uint64, and returns amount of CAS with 8  decimal places
+// FormatKas takes the amount of leors as uint64, and returns amount of PYI with 8  decimal places
 func FormatKas(amount uint64) string {
 	res := "                   "
 	if amount > 0 {

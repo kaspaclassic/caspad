@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // TipsToDBTips converts a slice of hashes to DbTips

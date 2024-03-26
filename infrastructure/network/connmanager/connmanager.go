@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/infrastructure/network/dnsseed"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/addressmanager"
+	"github.com/casklas/caspad/infrastructure/network/addressmanager"
 
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter"
+	"github.com/casklas/caspad/infrastructure/network/netadapter"
 
-	"github.com/kaspaclassic/caspad/infrastructure/config"
+	"github.com/casklas/caspad/infrastructure/config"
 )
 
 // connectionRequest represents a user request (either through CLI or RPC) to connect to a certain node

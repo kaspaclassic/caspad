@@ -1,9 +1,9 @@
 package integration
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/mining"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/mining"
 	"math/rand"
 	"os"
 	"reflect"
@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/domain/dagconfig"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/appmessage"
 )
 
 func TestIBD(t *testing.T) {

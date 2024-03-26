@@ -1,11 +1,11 @@
 package transactionvalidator
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/ruleerrors"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
 	"github.com/pkg/errors"
 )
 
@@ -67,7 +67,7 @@ func (v *transactionValidator) checkTransactionAmountRanges(tx *externalapi.Doma
 	// output must not be negative or more than the max allowed per
 	// transaction. Also, the total of all outputs must abide by the same
 	// restrictions. All amounts in a transaction are in a unit value known
-	// as a leor. One caspa is a quantity of leor as defined by the
+	// as a leor. One pyrin is a quantity of leor as defined by the
 	// LeorPerPyrin constant.
 	var totalLeor uint64
 	for _, txOut := range tx.Outputs {

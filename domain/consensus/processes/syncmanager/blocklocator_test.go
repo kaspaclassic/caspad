@@ -4,11 +4,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus"
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
-	"github.com/kaspaclassic/caspad/infrastructure/db/database"
+	"github.com/casklas/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/testutils"
+	"github.com/casklas/caspad/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

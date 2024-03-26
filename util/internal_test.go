@@ -12,7 +12,7 @@ interface. The functions are only exported while the tests are being run.
 package util
 
 import (
-	"github.com/kaspaclassic/caspad/util/bech32"
+	"github.com/casklas/caspad/util/bech32"
 )
 
 // TstAppDataDir makes the internal appDir function available to the test
@@ -46,21 +46,21 @@ func TstAddressScriptHash(prefix Bech32Prefix, hash [32]byte) *AddressScriptHash
 }
 
 // TstAddressSAddr returns the expected script address bytes for
-// P2PK caspa addresses.
+// P2PK pyrin addresses.
 func TstAddressSAddrP2PK(addr string) []byte {
 	_, decoded, _, _ := bech32.Decode(addr)
 	return decoded[:PublicKeySize]
 }
 
 // TstAddressSAddr returns the expected script address bytes for
-// ECDSA P2PK caspa addresses.
+// ECDSA P2PK pyrin addresses.
 func TstAddressSAddrP2PKECDSA(addr string) []byte {
 	_, decoded, _, _ := bech32.Decode(addr)
 	return decoded[:PublicKeySizeECDSA]
 }
 
 // TstAddressSAddrP2SH returns the expected script address bytes for
-// P2SH caspa addresses.
+// P2SH pyrin addresses.
 func TstAddressSAddrP2SH(addr string) []byte {
 	_, decoded, _, _ := bech32.Decode(addr)
 	return decoded[:32]

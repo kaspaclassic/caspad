@@ -3,7 +3,7 @@ package subnetworks
 import (
 	"encoding/hex"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // FromString creates a DomainSubnetworkID from the given byte slice

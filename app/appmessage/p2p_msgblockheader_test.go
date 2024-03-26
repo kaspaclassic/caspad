@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 	"github.com/davecgh/go-spew/spew"
 )
 

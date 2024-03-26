@@ -14,8 +14,8 @@ import (
 	"github.com/kaspanet/go-secp256k1"
 	"lukechampine.com/blake3"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
 )
 
 // An opcode defines the information related to a txscript opcode. opfunc, if
@@ -29,7 +29,7 @@ type opcode struct {
 	opfunc func(*parsedOpcode, *Engine) error
 }
 
-// These constants are the values of the caspa script opcodes.
+// These constants are the values of the pyrin script opcodes.
 const (
 	Op0                   = 0x00 // 0
 	OpFalse               = 0x00 // 0 - AKA Op0

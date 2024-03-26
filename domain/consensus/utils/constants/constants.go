@@ -12,7 +12,7 @@ const (
 	// MaxScriptPublicKeyVersion is the current latest supported public key script version.
 	MaxScriptPublicKeyVersion uint16 = 0
 
-	// LeorPerPyrin is the number of leor in one caspa (1 CAS).
+	// LeorPerPyrin is the number of leor in one pyrin (1 PYI).
 	LeorPerPyrin = 100_000_000
 
 	// MaxLeor is the maximum transaction amount allowed in leor.

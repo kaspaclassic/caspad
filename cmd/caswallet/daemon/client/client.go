@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/server"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/server"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
 	"google.golang.org/grpc"
 )
 

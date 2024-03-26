@@ -3,9 +3,9 @@ package ghostdagmanager
 import (
 	"sort"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 func (gm *ghostdagManager) mergeSetWithoutSelectedParent(stagingArea *model.StagingArea,

@@ -1,14 +1,14 @@
 package rpchandlers
 
 import (
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	"github.com/kaspaclassic/caspad/app/rpc/rpccontext"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
-	"github.com/kaspaclassic/caspad/util"
-	"github.com/kaspaclassic/caspad/version"
+	"github.com/casklas/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/rpc/rpccontext"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/transactionhelper"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/util"
+	"github.com/casklas/caspad/version"
 )
 
 // HandleGetBlockTemplate handles the respectively named RPC command

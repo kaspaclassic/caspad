@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // FinalityStore represents a store for finality data

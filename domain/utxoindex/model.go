@@ -1,7 +1,7 @@
 package utxoindex
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 )
 
 // ScriptPublicKeyString is a script public key represented as a string

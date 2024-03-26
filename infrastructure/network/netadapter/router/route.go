@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
+	"github.com/casklas/caspad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

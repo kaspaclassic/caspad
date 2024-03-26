@@ -6,7 +6,7 @@ Copyright (c) 2013-2014 Conformal Systems LLC.
 Use of this source code is governed by an ISC
 license that can be found in the LICENSE file.
 
-caspad is a full-node caspa implementation written in Go.
+caspad is a full-node pyrin implementation written in Go.
 
 The default options are sane for most users. This means caspad will work 'out of
 the box' for most users. However, there are also a wide variety of flags that

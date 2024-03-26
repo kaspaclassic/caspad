@@ -1,8 +1,8 @@
 package consensusstatestore
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/database/serialization"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/database/serialization"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
 	"github.com/golang/protobuf/proto"
 )
 

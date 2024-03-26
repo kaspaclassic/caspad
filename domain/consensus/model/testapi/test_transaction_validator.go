@@ -1,8 +1,8 @@
 package testapi
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
 )
 
 // TestTransactionValidator adds to the main TransactionValidator methods required by tests

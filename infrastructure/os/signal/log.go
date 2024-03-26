@@ -5,7 +5,7 @@
 package signal
 
 import (
-	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/casklas/caspad/infrastructure/logger"
 )
 
 var kasdLog = logger.RegisterSubSystem("CASD")

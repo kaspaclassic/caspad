@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaspaclassic/caspad/app/protocol/protocolerrors"
+	"github.com/casklas/caspad/app/protocol/protocolerrors"
 	"github.com/pkg/errors"
 )
 

@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaspaclassic/caspad/app/protocol/flows/v5/addressexchange"
+	"github.com/casklas/caspad/app/protocol/flows/v5/addressexchange"
 
-	"github.com/kaspaclassic/caspad/app/appmessage"
-	peerpkg "github.com/kaspaclassic/caspad/app/protocol/peer"
-	"github.com/kaspaclassic/caspad/domain/consensus"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
-	"github.com/kaspaclassic/caspad/infrastructure/network/addressmanager"
-	"github.com/kaspaclassic/caspad/infrastructure/network/netadapter/router"
+	"github.com/casklas/caspad/app/appmessage"
+	peerpkg "github.com/casklas/caspad/app/protocol/peer"
+	"github.com/casklas/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus/utils/testutils"
+	"github.com/casklas/caspad/infrastructure/network/addressmanager"
+	"github.com/casklas/caspad/infrastructure/network/netadapter/router"
 )
 
 type fakeReceiveAddressesContext struct{}

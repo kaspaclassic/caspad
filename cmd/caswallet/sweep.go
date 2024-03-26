@@ -6,21 +6,21 @@ import (
 	"fmt"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/client"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/daemon/pb"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/libcaswallet/serialization"
-	"github.com/kaspaclassic/caspad/cmd/caswallet/utils"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
-	"github.com/kaspaclassic/caspad/domain/dagconfig"
-	"github.com/kaspaclassic/caspad/domain/miningmanager/mempool"
-	"github.com/kaspaclassic/caspad/util"
-	"github.com/kaspaclassic/caspad/util/txmass"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/client"
+	"github.com/casklas/caspad/cmd/caswallet/daemon/pb"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet"
+	"github.com/casklas/caspad/cmd/caswallet/libcaswallet/serialization"
+	"github.com/casklas/caspad/cmd/caswallet/utils"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/domain/dagconfig"
+	"github.com/casklas/caspad/domain/miningmanager/mempool"
+	"github.com/casklas/caspad/util"
+	"github.com/casklas/caspad/util/txmass"
 	"github.com/pkg/errors"
 )
 
@@ -116,12 +116,12 @@ func sweep(conf *sweepConfig) error {
 	fmt.Println("\nTransaction ID(s):")
 	for i, txID := range response.TxIDs {
 		fmt.Printf("\t%s\n", txID)
-		fmt.Println("\tSwept:\t", utils.FormatKas(splitTransactions[i].Outputs[0].Value), " CAS")
+		fmt.Println("\tSwept:\t", utils.FormatKas(splitTransactions[i].Outputs[0].Value), " PYI")
 		totalExtracted = totalExtracted + splitTransactions[i].Outputs[0].Value
 	}
 
 	fmt.Println("\nTotal Funds swept (including transaction fees):")
-	fmt.Println("\t", utils.FormatKas(totalExtracted), " CAS")
+	fmt.Println("\t", utils.FormatKas(totalExtracted), " PYI")
 
 	return nil
 }

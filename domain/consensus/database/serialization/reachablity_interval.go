@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model"
 )
 
 func reachablityIntervalToDBReachablityInterval(reachabilityInterval *model.ReachabilityInterval) *DbReachabilityInterval {

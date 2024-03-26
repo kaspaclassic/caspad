@@ -2,7 +2,7 @@ package profiling
 
 import (
 	"fmt"
-	"github.com/kaspaclassic/caspad/infrastructure/logger"
+	"github.com/casklas/caspad/infrastructure/logger"
 	"net"
 	"net/http"
 	"os"
@@ -12,7 +12,7 @@ import (
 	// Required for profiling
 	_ "net/http/pprof"
 
-	"github.com/kaspaclassic/caspad/util/panics"
+	"github.com/casklas/caspad/util/panics"
 	"runtime"
 	"runtime/pprof"
 )

@@ -1,20 +1,20 @@
 package transactionvalidator_test
 
 import (
-	"github.com/kaspaclassic/caspad/domain/consensus"
-	"github.com/kaspaclassic/caspad/domain/consensus/ruleerrors"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/testutils"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/txscript"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/utxo"
-	"github.com/kaspaclassic/caspad/util"
+	"github.com/casklas/caspad/domain/consensus"
+	"github.com/casklas/caspad/domain/consensus/ruleerrors"
+	"github.com/casklas/caspad/domain/consensus/utils/consensushashing"
+	"github.com/casklas/caspad/domain/consensus/utils/testutils"
+	"github.com/casklas/caspad/domain/consensus/utils/txscript"
+	"github.com/casklas/caspad/domain/consensus/utils/utxo"
+	"github.com/casklas/caspad/util"
 
 	"testing"
 
-	"github.com/kaspaclassic/caspad/domain/consensus/model"
-	"github.com/kaspaclassic/caspad/domain/consensus/model/externalapi"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/constants"
-	"github.com/kaspaclassic/caspad/domain/consensus/utils/subnetworks"
+	"github.com/casklas/caspad/domain/consensus/model"
+	"github.com/casklas/caspad/domain/consensus/model/externalapi"
+	"github.com/casklas/caspad/domain/consensus/utils/constants"
+	"github.com/casklas/caspad/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
 )
 
@@ -57,7 +57,7 @@ func TestValidateTransactionInContextAndPopulateFee(t *testing.T) {
 			Sequence:         constants.MaxTxInSequenceNum,
 			SigOpCount:       1,
 			UTXOEntry: utxo.NewUTXOEntry(
-				100_000_000, // 1 CAS
+				100_000_000, // 1 PYI
 				scriptPublicKey,
 				true,
 				uint64(5)),
@@ -67,7 +67,7 @@ func TestValidateTransactionInContextAndPopulateFee(t *testing.T) {
 			SignatureScript:  []byte{},
 			SigOpCount:       1,
 			UTXOEntry: utxo.NewUTXOEntry(
-				100_000_000, // 1 CAS
+				100_000_000, // 1 PYI
 				scriptPublicKey,
 				true,
 				uint64(5)),
@@ -78,7 +78,7 @@ func TestValidateTransactionInContextAndPopulateFee(t *testing.T) {
 			Sequence:         constants.MaxTxInSequenceNum,
 			SigOpCount:       1,
 			UTXOEntry: utxo.NewUTXOEntry(
-				100_000_000, // 1 CAS
+				100_000_000, // 1 PYI
 				scriptPublicKey,
 				true,
 				uint64(6)),
@@ -109,11 +109,11 @@ func TestValidateTransactionInContextAndPopulateFee(t *testing.T) {
 		}
 
 		txOutput := externalapi.DomainTransactionOutput{
-			Value:           100000000, // 1 CAS
+			Value:           100000000, // 1 PYI
 			ScriptPublicKey: scriptPublicKey,
 		}
 		txOutputBigValue := externalapi.DomainTransactionOutput{
-			Value:           200_000_000, // 2 CAS
+			Value:           200_000_000, // 2 PYI
 			ScriptPublicKey: scriptPublicKey,
 		}
 
